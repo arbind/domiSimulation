@@ -1,0 +1,13 @@
+This json framework code is from:
+http://code.google.com/p/json-framework/
+
+on NSString:
+- (id)JSONValue; //converts a NSString to an NSDictionary or NSArray
+
+on NSDictionary or NSArray:
+- (NSString *)JSONRepresentation; // Returns a string containing a json representation;
+
+in your objects (subclass of NSObject) override:
+- (NSString *)JSONRepresentation;
+
+(especially if your object is an item in a dictionary that is being converted to json)

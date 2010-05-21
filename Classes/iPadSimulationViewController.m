@@ -45,7 +45,6 @@ NSString * const domiViewControllerClassSuffix = @"simulationviewcontroller";
 	}
 	self.title = className;
 	self.splitViewController.title = className;
-	self.navigationBar.title = className;
 }
 
 
