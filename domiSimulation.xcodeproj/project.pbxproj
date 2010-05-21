@@ -60,11 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				F41D51E211A4C87E00A4AAA2 /* Util */,
+				F43ED10C11A61BBB007B48B4 /* HI */,
+				F43ED10A11A61B7E007B48B4 /* Model */,
+				F43ED10B11A61B88007B48B4 /* Service */,
 				F40AF6C811A485A900B57B42 /* DataStore */,
-				1D3623240D0F684500981E51 /* domiSimulationAppDelegate.h */,
-				1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* domiSimulationViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* domiSimulationViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -136,6 +135,31 @@
 				F41D51E411A4C95600A4AAA2 /* FileUtil.m */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		F43ED10A11A61B7E007B48B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F43ED10B11A61B88007B48B4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		F43ED10C11A61BBB007B48B4 /* HI */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* domiSimulationAppDelegate.h */,
+				1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* domiSimulationViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* domiSimulationViewController.m */,
+			);
+			name = HI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
