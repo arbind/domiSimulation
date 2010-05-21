@@ -52,7 +52,7 @@
 }
 
 
--(NSString *) tailPreviousLine {
+-(NSString *) readPreviousLine {
 	if (0>position) return nil;
 	
 	NSString *line;

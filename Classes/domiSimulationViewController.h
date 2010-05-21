@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iPadSimulationViewController.h"
 #import "DomiRepo.h"
 
-@interface domiSimulationViewController : UIViewController {
+@interface domiSimulationViewController : iPadSimulationViewController {
 
 	IBOutlet UITextField *user1;
 	IBOutlet UITextField *user2;

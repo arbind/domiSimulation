@@ -18,6 +18,11 @@
 		F40AF6D211A485D800B57B42 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F40AF6D111A485D800B57B42 /* FileReader.m */; };
 		F41D51DA11A4C52600A4AAA2 /* DomiRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D51D711A4C52600A4AAA2 /* DomiRepo.m */; };
 		F41D51E511A4C95600A4AAA2 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D51E411A4C95600A4AAA2 /* FileUtil.m */; };
+		F43ED1B311A636BF007B48B4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED1B111A636BF007B48B4 /* RootViewController.m */; };
+		F43ED1CC11A63741007B48B4 /* iPadSimulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED1CB11A63741007B48B4 /* iPadSimulationViewController.m */; };
+		F43ED26511A644C1007B48B4 /* README in Resources */ = {isa = PBXBuildFile; fileRef = F43ED26411A644C1007B48B4 /* README */; };
+		F43ED27011A64692007B48B4 /* domiSplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED26E11A64692007B48B4 /* domiSplashScreenViewController.m */; };
+		F43ED27111A64692007B48B4 /* domiSplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43ED26F11A64692007B48B4 /* domiSplashScreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,14 @@
 		F41D51D711A4C52600A4AAA2 /* DomiRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomiRepo.m; sourceTree = "<group>"; };
 		F41D51E311A4C95600A4AAA2 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
 		F41D51E411A4C95600A4AAA2 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		F43ED1B011A636BF007B48B4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F43ED1B111A636BF007B48B4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F43ED1CA11A63741007B48B4 /* iPadSimulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadSimulationViewController.h; sourceTree = "<group>"; };
+		F43ED1CB11A63741007B48B4 /* iPadSimulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadSimulationViewController.m; sourceTree = "<group>"; };
+		F43ED26411A644C1007B48B4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F43ED26D11A64692007B48B4 /* domiSplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiSplashScreenViewController.h; sourceTree = "<group>"; };
+		F43ED26E11A64692007B48B4 /* domiSplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiSplashScreenViewController.m; sourceTree = "<group>"; };
+		F43ED26F11A64692007B48B4 /* domiSplashScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = domiSplashScreenViewController.xib; path = Classes/domiSplashScreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +97,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				F43ED26411A644C1007B48B4 /* README */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -100,7 +114,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2899E5210DE3E06400AC0155 /* domiSimulationViewController.xib */,
+				F43ED1B511A636CE007B48B4 /* iPadUI */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* domiSimulation-Info.plist */,
 			);
@@ -154,12 +168,43 @@
 		F43ED10C11A61BBB007B48B4 /* HI */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* domiSimulationAppDelegate.h */,
-				1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */,
+				F43ED27411A647B6007B48B4 /* App */,
+				F43ED1AF11A636A3007B48B4 /* iPadUI */,
+			);
+			name = HI;
+			sourceTree = "<group>";
+		};
+		F43ED1AF11A636A3007B48B4 /* iPadUI */ = {
+			isa = PBXGroup;
+			children = (
+				F43ED1B011A636BF007B48B4 /* RootViewController.h */,
+				F43ED1B111A636BF007B48B4 /* RootViewController.m */,
+				F43ED1CA11A63741007B48B4 /* iPadSimulationViewController.h */,
+				F43ED1CB11A63741007B48B4 /* iPadSimulationViewController.m */,
+				F43ED26D11A64692007B48B4 /* domiSplashScreenViewController.h */,
+				F43ED26E11A64692007B48B4 /* domiSplashScreenViewController.m */,
 				28D7ACF60DDB3853001CB0EB /* domiSimulationViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* domiSimulationViewController.m */,
 			);
-			name = HI;
+			name = iPadUI;
+			sourceTree = "<group>";
+		};
+		F43ED1B511A636CE007B48B4 /* iPadUI */ = {
+			isa = PBXGroup;
+			children = (
+				F43ED26F11A64692007B48B4 /* domiSplashScreenViewController.xib */,
+				2899E5210DE3E06400AC0155 /* domiSimulationViewController.xib */,
+			);
+			name = iPadUI;
+			sourceTree = "<group>";
+		};
+		F43ED27411A647B6007B48B4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* domiSimulationAppDelegate.h */,
+				1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +251,8 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* domiSimulationViewController.xib in Resources */,
+				F43ED26511A644C1007B48B4 /* README in Resources */,
+				F43ED27111A64692007B48B4 /* domiSplashScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +269,9 @@
 				F40AF6D211A485D800B57B42 /* FileReader.m in Sources */,
 				F41D51DA11A4C52600A4AAA2 /* DomiRepo.m in Sources */,
 				F41D51E511A4C95600A4AAA2 /* FileUtil.m in Sources */,
+				F43ED1B311A636BF007B48B4 /* RootViewController.m in Sources */,
+				F43ED1CC11A63741007B48B4 /* iPadSimulationViewController.m in Sources */,
+				F43ED27011A64692007B48B4 /* domiSplashScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

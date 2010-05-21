@@ -11,22 +11,18 @@
 
 @implementation domiSimulationAppDelegate
 
-@synthesize window;
-@synthesize viewController;
+@synthesize window, splitViewController;
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after app launch    
-    [window addSubview:viewController.view];
+    [window addSubview:splitViewController.view];
     [window makeKeyAndVisible];
-
-	return YES;
+		return YES;
 }
 
 
 - (void)dealloc {
-    [viewController release];
+    [splitViewController release];
     [window release];
     [super dealloc];
 }

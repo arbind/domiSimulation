@@ -12,11 +12,11 @@
 
 @interface domiSimulationAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    domiSimulationViewController *viewController;
+		UISplitViewController *splitViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet domiSimulationViewController *viewController;
+@property (nonatomic, retain) IBOutlet UISplitViewController *splitViewController;
 
 @end
 

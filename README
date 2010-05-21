@@ -1,0 +1,27 @@
+Domi Simulation
+
+The projects in this repo are test beds for incubating ideas
+and developing out the domi system.
+
+You can easily add new simulations to this repo.
+Each new simulation can leverage work accomplished by prior simulations.
+
+To create and integrate your new Simulation:
+
+--- write your code
+1. Develop your code (Domain object, service, biz logic, or util)
+
+--- create a view controller
+2. Create a new UIViewController Class with a xib file.
+3. Name it coolIdeaSimilationViewController 
+   (replaceing coolIdea with your cool idea :)
+4. Have the interface (.h file) #import and extend iPadSimulationViewController instead of UIViewController
+5. Move the files into Classes or Resources under HI/iPadUI
+
+--- Define your View
+6. open coolIdeaSimilationViewController.xib and add a UINavigationBar at the top of the view.
+7. connect the navigationBar outlet from File's Owner to the toolbar you just added on the view.
+
+--- Integrate your new view and controller into the app
+8. in RootViewcontroller.m #import your coolIdeaSimilationViewController
+9. in RootViewcontroller update: thenumberOfRowsInSection, cellForRowAtIndexPath and didSelectRowAtIndexPath
