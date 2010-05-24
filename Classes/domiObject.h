@@ -26,9 +26,9 @@
 -(void) setMetadata:(id)value forKey:(NSString *)k;
 -(void) removeMetadataForKey:(NSString *)k;
 
--(id) dataForKey:(NSString *)k;
--(void) setData:(id)value forKey:(NSString *)k;
--(void) removeDataForKey:(NSString *)k;
+-(id) valueForKey:(NSString *)k;
+-(void) setValue:(id)value forKey:(NSString *)k;
+-(void) removeValueForKey:(NSString *)k;
 
 - (NSString *)JSONRepresentation;
 
@@ -40,6 +40,7 @@ extern NSString * const kDomiData;
 extern NSString * const kDomiMetadata;
 
 extern NSString * const kName;
+extern NSString * const kUserName;
 extern NSString * const kPreferences;
 extern NSString * const kPrivateRepo;
 extern NSString * const kAnonymousRepo;

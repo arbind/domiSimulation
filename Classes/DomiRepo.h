@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DomiRepo : NSObject {
+@interface domiRepo : NSObject {
 	NSString *unique;	
 	NSString *repoPath;
 	
@@ -20,10 +20,12 @@
 @property (nonatomic, readonly) NSString *unique;
 @property (nonatomic, readonly) NSString *repoHeadFilePath;
 
++(domiRepo *) repoForUser:(NSString *)userName;
+
 -(id) initForUser:(NSString *)userName;
 
 -(void)save:(NSString *) data;
--(void)merge:(DomiRepo*)otherRepo;
+-(void)merge:(domiRepo*)otherRepo;
 
 -(void)mergeTestForFile1:(NSString *)oneFile file2:(NSString *)twoFile outFile:(NSString *)outFile;
 

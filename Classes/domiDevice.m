@@ -10,10 +10,10 @@
 
 @implementation domiDevice
 
--(NSString*) name { return (NSString*)[self dataForKey:kName];  }
--(void) setName:(NSString *)s {[self setData:s forKey:kName];  }
+-(NSString*) name { return (NSString*)[self valueForKey:kName];  }
+-(void) setName:(NSString *)s {[self setValue:s forKey:kName];  }
 
--(NSString*) ipAddress { return (NSString*)[self dataForKey:kIPAddress];  }
--(void) setIpAddress:(NSString *)s {[self setData:s forKey:kIPAddress];  }
+-(NSString*) ipAddress { return (NSString*)[self valueForKey:kIPAddress];  }
+-(void) setIpAddress:(NSString *)s {[self setValue:s forKey:kIPAddress];  }
 
 @end

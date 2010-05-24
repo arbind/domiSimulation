@@ -12,6 +12,7 @@ NSString * const kDomiClass = @"domiClass";
 NSString * const kDomiData = @"domiData";
 NSString * const kDomiMetadata = @"domiMetadata";
 NSString * const kName = @"name";
+NSString * const kUserName = @"userName";
 NSString * const kPreferences = @"preferences";
 NSString * const kPrivateRepo = @"privateRepo";
 NSString * const kAnonymousRepo = @"anonymousRepo";
@@ -84,27 +85,31 @@ NSString * const kIPAddress = @"ipAddress";
 	if (nil==value) {
 		[self removeMetadataForKey:k];
 	}
-	[metadata setValue:v forKey:k];
+	else {
+		[metadata setValue:v forKey:k];
+	}
 }
 
 -(void) removeMetadataForKey:(NSString *)k {
 	[metadata removeObjectForKey:k];
 }
 
--(id) dataForKey:(NSString *)k {
+-(id) valueForKey:(NSString *)k {
 	id value = [data objectForKey:k];
 	return value;
 }
 
--(void) setData:(id)value forKey:(NSString *)k{
+-(void) setValue:(id)value forKey:(NSString *)k{
 	id v = value;
 	if (nil==value) {
-		[self removeDataForKey:k];
+		[self removeValueForKey:k];
 	}
-	[data setValue:v forKey:k];
+	else {
+		[data setValue:v forKey:k];
+	}
 }
 
--(void) removeDataForKey:(NSString *)k {
+-(void) removeValueForKey:(NSString *)k {
 	[data removeObjectForKey:k];
 }
 
@@ -120,7 +125,7 @@ NSString * const kIPAddress = @"ipAddress";
 - (NSString *)JSONRepresentation {
 	NSMutableDictionary *domiObj = [[NSMutableDictionary alloc] init];
 	[domiObj setValue:metadata forKey:kDomiMetadata];
-	[domiObj setValue:metadata forKey:kDomiData];
+	[domiObj setValue:data forKey:kDomiData];
 	NSString* jsonRep = [domiObj JSONRepresentation];
 	return jsonRep;
 }

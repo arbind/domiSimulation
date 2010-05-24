@@ -13,13 +13,18 @@
 
 }
 
-+(NSString *) userHome:(NSString *)userName;
-+(NSString *) pathToFilename:(NSString *) fileName;
++(NSString *) domiHomeDir;
++(NSString *) usersDir;
++(NSString *) userHomeDir:(NSString *)userName;
 
 +(BOOL) fileExists:(NSString *)filePath;
 +(BOOL) directoryExists:(NSString *)dirPath;
 
++ (NSArray *) directoryList:(NSString *) dirPath;
+
 +(BOOL) createDir:(NSString *)dirPath;
 +(BOOL) createDir:(NSString *)dirPath attributes:(NSDictionary *)attributes error:(NSError **)error;
-						
+
++(NSString *) pathToFilename:(NSString *) fileName;
+
 @end

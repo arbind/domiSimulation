@@ -7,6 +7,7 @@
 //
 
 #import "UserRepoSimulationViewControllerIPAD.h"
+#import "domiPerson.h"
 
 @implementation UserRepoSimulationViewControllerIPAD
 @synthesize user1, user2, data1, data2, repoView1, repoView2, repo1, repo2;	
@@ -60,12 +61,12 @@
 
 -(void) initRepo1 {
 	if (nil!=repo1) return;
-	self.repo1 =	[[DomiRepo alloc] initForUser:self.user1.text];
+	self.repo1 =	[[domiRepo alloc] initForUser:self.user1.text];
 }
 
 -(void) initRepo2 {
 	if (nil!=repo2) return;
-	self.repo2 =	[[DomiRepo alloc] initForUser:self.user2.text];
+	self.repo2 =	[[domiRepo alloc] initForUser:self.user2.text];
 }
 
 
@@ -85,5 +86,27 @@
 	self.repoView2.text = contents;
 }
 
+
+
+
+-(IBAction) JSONTest:(id) sender {
+	
+	domiPerson *p1 = [[domiPerson alloc] init];
+	p1.domiKey = @"This is my P1 Persons key";
+	p1.name = @"Jim";
+	NSMutableDictionary *p1Prefs = [[NSMutableDictionary alloc] init];
+	[p1Prefs setValue:@"blue" forKey:@"favorite-color"];
+	[p1Prefs setValue:@"8" forKey:@"favorite-number"];
+	p1.preferences = p1Prefs;
+	[p1 setValue:@"RandomValue" forKey:@"randomKey"];
+
+	NSLog(@"%@: %@",p1.name, [p1 JSONRepresentation]);
+	
+	NSString *p1JSON = [p1 JSONRepresentation];
+	
+	domiPerson *p2 = (domiPerson *)[domiObject domiObjectFromJSONRepresentation:p1JSON];	
+
+	NSLog(@"%@: %@",p2.name, [p2 JSONRepresentation]);
+}
 
 @end

@@ -17,7 +17,7 @@
 		F41F749611A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749211A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m */; };
 		F41F749711A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749411A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m */; };
 		F41F74B511A9A7EF0082D3AC /* domiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749B11A9A7EF0082D3AC /* domiObject.m */; };
-		F41F74B611A9A7EF0082D3AC /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749E11A9A7EF0082D3AC /* AppConfig.m */; };
+		F41F74B611A9A7EF0082D3AC /* domiAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749E11A9A7EF0082D3AC /* domiAppConfig.m */; };
 		F41F74B711A9A7EF0082D3AC /* domiUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A011A9A7EF0082D3AC /* domiUser.m */; };
 		F41F74B811A9A7EF0082D3AC /* domiAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A211A9A7EF0082D3AC /* domiAccount.m */; };
 		F41F74B911A9A7EF0082D3AC /* domiApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A411A9A7EF0082D3AC /* domiApplication.m */; };
@@ -28,7 +28,7 @@
 		F41F74BE11A9A7EF0082D3AC /* domiTopology.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AF11A9A7EF0082D3AC /* domiTopology.m */; };
 		F41F74BF11A9A7EF0082D3AC /* domiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B111A9A7EF0082D3AC /* domiTransport.m */; };
 		F41F74C011A9A7EF0082D3AC /* domiInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B411A9A7EF0082D3AC /* domiInstruction.m */; };
-		F41F74EB11A9A8000082D3AC /* DomiRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C411A9A8000082D3AC /* DomiRepo.m */; };
+		F41F74EB11A9A8000082D3AC /* domiRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C411A9A8000082D3AC /* domiRepo.m */; };
 		F41F74EC11A9A8000082D3AC /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C811A9A8000082D3AC /* Room.m */; };
 		F41F74ED11A9A8000082D3AC /* RemoteRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CB11A9A8000082D3AC /* RemoteRoom.m */; };
 		F41F74EE11A9A8000082D3AC /* LocalRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CD11A9A8000082D3AC /* LocalRoom.m */; };
@@ -56,7 +56,7 @@
 		F433676411A9B2C3002FF527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		F433676511A9B2C3002FF527 /* domiSimulationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */; };
 		F433676A11A9B2C3002FF527 /* domiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749B11A9A7EF0082D3AC /* domiObject.m */; };
-		F433676B11A9B2C3002FF527 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749E11A9A7EF0082D3AC /* AppConfig.m */; };
+		F433676B11A9B2C3002FF527 /* domiAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749E11A9A7EF0082D3AC /* domiAppConfig.m */; };
 		F433676C11A9B2C3002FF527 /* domiUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A011A9A7EF0082D3AC /* domiUser.m */; };
 		F433676D11A9B2C3002FF527 /* domiAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A211A9A7EF0082D3AC /* domiAccount.m */; };
 		F433676E11A9B2C3002FF527 /* domiApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A411A9A7EF0082D3AC /* domiApplication.m */; };
@@ -67,7 +67,7 @@
 		F433677311A9B2C3002FF527 /* domiTopology.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AF11A9A7EF0082D3AC /* domiTopology.m */; };
 		F433677411A9B2C3002FF527 /* domiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B111A9A7EF0082D3AC /* domiTransport.m */; };
 		F433677511A9B2C3002FF527 /* domiInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B411A9A7EF0082D3AC /* domiInstruction.m */; };
-		F433677611A9B2C3002FF527 /* DomiRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C411A9A8000082D3AC /* DomiRepo.m */; };
+		F433677611A9B2C3002FF527 /* domiRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C411A9A8000082D3AC /* domiRepo.m */; };
 		F433677711A9B2C3002FF527 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C811A9A8000082D3AC /* Room.m */; };
 		F433677811A9B2C3002FF527 /* RemoteRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CB11A9A8000082D3AC /* RemoteRoom.m */; };
 		F433677911A9B2C3002FF527 /* LocalRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CD11A9A8000082D3AC /* LocalRoom.m */; };
@@ -130,8 +130,8 @@
 		F41F749411A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRepoSimulationViewControllerIPAD.m; sourceTree = "<group>"; };
 		F41F749A11A9A7EF0082D3AC /* domiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiObject.h; sourceTree = "<group>"; };
 		F41F749B11A9A7EF0082D3AC /* domiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiObject.m; sourceTree = "<group>"; };
-		F41F749D11A9A7EF0082D3AC /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
-		F41F749E11A9A7EF0082D3AC /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		F41F749D11A9A7EF0082D3AC /* domiAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiAppConfig.h; sourceTree = "<group>"; };
+		F41F749E11A9A7EF0082D3AC /* domiAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiAppConfig.m; sourceTree = "<group>"; };
 		F41F749F11A9A7EF0082D3AC /* domiUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiUser.h; sourceTree = "<group>"; };
 		F41F74A011A9A7EF0082D3AC /* domiUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiUser.m; sourceTree = "<group>"; };
 		F41F74A111A9A7EF0082D3AC /* domiAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiAccount.h; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 		F41F74B111A9A7EF0082D3AC /* domiTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiTransport.m; sourceTree = "<group>"; };
 		F41F74B311A9A7EF0082D3AC /* domiInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiInstruction.h; sourceTree = "<group>"; };
 		F41F74B411A9A7EF0082D3AC /* domiInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiInstruction.m; sourceTree = "<group>"; };
-		F41F74C311A9A8000082D3AC /* DomiRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomiRepo.h; sourceTree = "<group>"; };
-		F41F74C411A9A8000082D3AC /* DomiRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomiRepo.m; sourceTree = "<group>"; };
+		F41F74C311A9A8000082D3AC /* domiRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiRepo.h; sourceTree = "<group>"; };
+		F41F74C411A9A8000082D3AC /* domiRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiRepo.m; sourceTree = "<group>"; };
 		F41F74C711A9A8000082D3AC /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		F41F74C811A9A8000082D3AC /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
 		F41F74C911A9A8000082D3AC /* RoomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDelegate.h; sourceTree = "<group>"; };
@@ -394,8 +394,8 @@
 		F41F749C11A9A7EF0082D3AC /* App */ = {
 			isa = PBXGroup;
 			children = (
-				F41F749D11A9A7EF0082D3AC /* AppConfig.h */,
-				F41F749E11A9A7EF0082D3AC /* AppConfig.m */,
+				F41F749D11A9A7EF0082D3AC /* domiAppConfig.h */,
+				F41F749E11A9A7EF0082D3AC /* domiAppConfig.m */,
 				F41F749F11A9A7EF0082D3AC /* domiUser.h */,
 				F41F74A011A9A7EF0082D3AC /* domiUser.m */,
 				F41F74A111A9A7EF0082D3AC /* domiAccount.h */,
@@ -446,8 +446,8 @@
 		F41F74C211A9A8000082D3AC /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
-				F41F74C311A9A8000082D3AC /* DomiRepo.h */,
-				F41F74C411A9A8000082D3AC /* DomiRepo.m */,
+				F41F74C311A9A8000082D3AC /* domiRepo.h */,
+				F41F74C411A9A8000082D3AC /* domiRepo.m */,
 			);
 			name = DataStore;
 			sourceTree = "<group>";
@@ -658,7 +658,7 @@
 				F41F749511A9A7A50082D3AC /* SimulationViewControllerIPAD.m in Sources */,
 				F41F749611A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m in Sources */,
 				F41F74B511A9A7EF0082D3AC /* domiObject.m in Sources */,
-				F41F74B611A9A7EF0082D3AC /* AppConfig.m in Sources */,
+				F41F74B611A9A7EF0082D3AC /* domiAppConfig.m in Sources */,
 				F41F74B711A9A7EF0082D3AC /* domiUser.m in Sources */,
 				F41F74B811A9A7EF0082D3AC /* domiAccount.m in Sources */,
 				F41F74B911A9A7EF0082D3AC /* domiApplication.m in Sources */,
@@ -669,7 +669,7 @@
 				F41F74BE11A9A7EF0082D3AC /* domiTopology.m in Sources */,
 				F41F74BF11A9A7EF0082D3AC /* domiTransport.m in Sources */,
 				F41F74C011A9A7EF0082D3AC /* domiInstruction.m in Sources */,
-				F41F74EB11A9A8000082D3AC /* DomiRepo.m in Sources */,
+				F41F74EB11A9A8000082D3AC /* domiRepo.m in Sources */,
 				F41F74EC11A9A8000082D3AC /* Room.m in Sources */,
 				F41F74ED11A9A8000082D3AC /* RemoteRoom.m in Sources */,
 				F41F74EE11A9A8000082D3AC /* LocalRoom.m in Sources */,
@@ -706,7 +706,7 @@
 				F435127811A9CE4B008747D8 /* SimulationViewControllerIPHONE.m in Sources */,
 				F435127A11A9CE4B008747D8 /* SplashScreenViewControllerIPHONE.m in Sources */,
 				F433676A11A9B2C3002FF527 /* domiObject.m in Sources */,
-				F433676B11A9B2C3002FF527 /* AppConfig.m in Sources */,
+				F433676B11A9B2C3002FF527 /* domiAppConfig.m in Sources */,
 				F433676C11A9B2C3002FF527 /* domiUser.m in Sources */,
 				F433676D11A9B2C3002FF527 /* domiAccount.m in Sources */,
 				F433676E11A9B2C3002FF527 /* domiApplication.m in Sources */,
@@ -717,7 +717,7 @@
 				F433677311A9B2C3002FF527 /* domiTopology.m in Sources */,
 				F433677411A9B2C3002FF527 /* domiTransport.m in Sources */,
 				F433677511A9B2C3002FF527 /* domiInstruction.m in Sources */,
-				F433677611A9B2C3002FF527 /* DomiRepo.m in Sources */,
+				F433677611A9B2C3002FF527 /* domiRepo.m in Sources */,
 				F433677711A9B2C3002FF527 /* Room.m in Sources */,
 				F433677811A9B2C3002FF527 /* RemoteRoom.m in Sources */,
 				F433677911A9B2C3002FF527 /* LocalRoom.m in Sources */,

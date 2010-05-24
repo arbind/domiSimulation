@@ -1,0 +1,1764 @@
+TdomiSimulation-IPAD
+v7
+r0
+t296427259.764381
+cCheck dependencies
+cProcessInfoPlistFile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/Info.plist domiSimulation_IPAD-Info.plist
+cCpResource build/Debug-iphonesimulator/domiSimulation-IPAD.app/JSON-README Classes/JSON/JSON-README
+cCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/MainWindow.xib
+cCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/SplashScreenViewControllerIPAD.xib
+cCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/UserRepoSimulationViewControllerIPAD.xib
+cCpResource build/Debug-iphonesimulator/domiSimulation-IPAD.app/README README
+cCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.xib
+cCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.xib
+cProcessPCH /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch.gch domiSimulation_IPAD_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/main.o /Users/Arbind/code/domi/simulation/domiSimulation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSimulationAppDelegate.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RootViewController.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserRepoSimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SplashScreenViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiObject.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAppConfig.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiUser.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAccount.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiApplication.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiPerson.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiGroup.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiDevice.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSensor.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopology.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTransport.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiInstruction.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiRepo.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Room.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RemoteRoom.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/LocalRoom.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Server.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Connection.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ServerBrowser.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSObject+SBJSON.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSString+SBJSON.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJSON.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonBase.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonParser.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonWriter.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileReader.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileUtil.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewController.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TopologySimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DietAppSimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DeviceListUIManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TableViewSelectListManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ActionListUIManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserListUIManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopologyService.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD normal i386
+cGenerateDSYMFile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app.dSYM /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD
+cTouch /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
+c000000004B2B4CD600000000000060BB
+t1261128918
+s24763
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BDFB3440000000000000110
+t1272951620
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
+c000000004B9F1D3B00000000000060BB
+t1268718907
+s24763
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004B9F1E7D0000000000001A1A
+t1268719229
+s6682
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.h
+c000000004BFA141F00000000000001F3
+t1274680351
+s499
+i<Foundation/Foundation.h>
+i"TableViewSelectListManager.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.m
+c000000004BFA143300000000000003E7
+t1274680371
+s999
+i"ActionListUIManager.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/AppConfig.h
+c000000004BFA153D0000000000000637
+t1274680637
+s1591
+i<Foundation/Foundation.h>
+i"domiObject.h"
+i"domiUser.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/AppConfig.m
+c000000004BFA153500000000000005EB
+t1274680629
+s1515
+i"domiAppConfig.h"
+i"FileUtil.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.h
+c000000004BFA048600000000000009E4
+t1274676358
+s2532
+i<Foundation/Foundation.h>
+i<CFNetwork/CFSocketStream.h>
+i"ConnectionDelegate.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.m
+c000000004BFA04860000000000003783
+t1274676358
+s14211
+i"Connection.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ConnectionDelegate.h
+c000000004BFA048600000000000005F0
+t1274676358
+s1520
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.h
+c000000004BFA145400000000000001F4
+t1274680404
+s500
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"TableViewSelectListManager.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.m
+c000000004BFA145C000000000000055C
+t1274680412
+s1372
+i"DeviceListUIManager.h"
+i"domiDevice.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.h
+c000000004BFA04860000000000000141
+t1274676358
+s321
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPAD.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.m
+c000000004BFA04860000000000000553
+t1274676358
+s1363
+i"DietAppSimulationViewControllerIPAD.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.xib
+c000000004BFA04860000000000005BDA
+t1274676358
+s23514
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPHONE.h
+c000000004BFA04860000000000000143
+t1274676358
+s323
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPHONE.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DomiRepo.h
+c000000004BFA04860000000000000297
+t1274676358
+s663
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DomiRepo.m
+c000000004BFA04860000000000000E0F
+t1274676358
+s3599
+i"DomiRepo.h"
+i"FileUtil.h"
+i"FileReader.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.h
+c000000004BFA04860000000000000304
+t1274676358
+s772
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.m
+c000000004BFA04860000000000000A2A
+t1274676358
+s2602
+i"FileReader.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.h
+c000000004BFA097B0000000000000284
+t1274677627
+s644
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.m
+c000000004BFA11FE0000000000000D37
+t1274679806
+s3383
+i"FileUtil.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/JSON-README
+c000000004BFA048600000000000001BE
+t1274676358
+s446
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/JSON.h
+c000000004BFA048600000000000008F9
+t1274676358
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.h
+c000000004BFA04860000000000000A01
+t1274676358
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.m
+c000000004BFA0486000000000000089E
+t1274676358
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.h
+c000000004BFA04860000000000000916
+t1274676358
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.m
+c000000004BFA0486000000000000087D
+t1274676358
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.h
+c000000004BFA04860000000000000AED
+t1274676358
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.m
+c000000004BFA04860000000000001ABC
+t1274676358
+s6844
+i"SBJSON.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.h
+c000000004BFA04860000000000000B82
+t1274676358
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.m
+c000000004BFA04860000000000000AC1
+t1274676358
+s2753
+i"SBJsonBase.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.h
+c000000004BFA04860000000000000C0B
+t1274676358
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.m
+c000000004BFA048600000000000036D0
+t1274676358
+s14032
+i"SBJsonParser.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.h
+c000000004BFA04860000000000001140
+t1274676358
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.m
+c000000004BFA04860000000000001F26
+t1274676358
+s7974
+i"SBJsonWriter.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.h
+c000000004BFA0486000000000000065C
+t1274676358
+s1628
+i<Foundation/Foundation.h>
+i"Room.h"
+i"Server.h"
+i"ServerDelegate.h"
+i"ConnectionDelegate.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.m
+c000000004BFA04860000000000000FA4
+t1274676358
+s4004
+i"LocalRoom.h"
+i"Connection.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.h
+c000000004BFA04860000000000000664
+t1274676358
+s1636
+i<Foundation/Foundation.h>
+i"Room.h"
+i"Connection.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.m
+c000000004BFA04860000000000000C30
+t1274676358
+s3120
+i"RemoteRoom.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.h
+c000000004BFA048600000000000005D8
+t1274676358
+s1496
+i<Foundation/Foundation.h>
+i"RoomDelegate.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.m
+c000000004BFA048600000000000006F1
+t1274676358
+s1777
+i"RoomDelegate.h"
+i"Room.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RoomDelegate.h
+c000000004BFA04860000000000000598
+t1274676358
+s1432
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.h
+c000000004BFA04860000000000000366
+t1274676358
+s870
+i<UIKit/UIKit.h>
+i"SimulationViewController.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.m
+c000000004BFA048600000000000015ED
+t1274676358
+s5613
+i"RootViewController.h"
+i"SplashScreenViewControllerIPAD.h"
+i"UserRepoSimulationViewControllerIPAD.h"
+i"TopologySimulationViewControllerIPAD.h"
+i"DietAppSimulationViewControllerIPAD.h"
+i"SplashScreenViewControllerIPHONE.h"
+i"UserRepoSimulationViewControllerIPHONE.h"
+i"TopologySimulationViewControllerIPHONE.h"
+i"DietAppSimulationViewControllerIPHONE.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.h
+c000000004BFA04860000000000000667
+t1274676358
+s1639
+i<Foundation/Foundation.h>
+i"ServerDelegate.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.m
+c000000004BFA1592000000000000209B
+t1274680722
+s8347
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<CFNetwork/CFSocketStream.h>
+i"Server.h"
+i"Connection.h"
+i"domiAppConfig.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.h
+c000000004BFAE6B5000000000000066A
+t1274734261
+s1642
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.m
+c000000004BFA04860000000000000FDA
+t1274676358
+s4058
+i"ServerBrowserDelegate.h"
+i"ServerBrowser.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowserDelegate.h
+c000000004BFA0486000000000000052E
+t1274676358
+s1326
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerDelegate.h
+c000000004BFA04860000000000000610
+t1274676358
+s1552
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.h
+c000000004BFA048600000000000000F7
+t1274676358
+s247
+i<UIKit/UIKit.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.m
+c000000004BFA048600000000000005B7
+t1274676358
+s1463
+i"SimulationViewController.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.h
+c000000004BFA048600000000000002C3
+t1274676358
+s707
+i<UIKit/UIKit.h>
+i"SimulationViewController.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.m
+c000000004BFA04860000000000000B03
+t1274676358
+s2819
+i"SimulationViewControllerIPAD.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPHONE.h
+c000000004BFA0486000000000000012F
+t1274676358
+s303
+i<UIKit/UIKit.h>
+i"SimulationViewController.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.h
+c000000004BFA04860000000000000132
+t1274676358
+s306
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPAD.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.m
+c000000004BFA0486000000000000053F
+t1274676358
+s1343
+i"SplashScreenViewControllerIPAD.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPHONE.h
+c000000004BFA0486000000000000013F
+t1274676358
+s319
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPHONE.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.h
+c000000004BFA148400000000000004A9
+t1274680452
+s1193
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.m
+c000000004BFA19ED0000000000001080
+t1274681837
+s4224
+i"TableViewSelectListManager.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.h
+c000000004BFA04860000000000000143
+t1274676358
+s323
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPAD.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.m
+c000000004BFA04860000000000000556
+t1274676358
+s1366
+i"TopologySimulationViewControllerIPAD.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.xib
+c000000004BFA04860000000000005BE0
+t1274676358
+s23520
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPHONE.h
+c000000004BFA16C400000000000003FF
+t1274681028
+s1023
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPHONE.h"
+i"UserListUIManager.h"
+i"DeviceListUIManager.h"
+i"ActionListUIManager.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.h
+c000000004BFA1442000000000000021D
+t1274680386
+s541
+i<Foundation/Foundation.h>
+i"TableViewSelectListManager.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.m
+c000000004BFA180D00000000000003D0
+t1274681357
+s976
+i"UserListUIManager.h"
+i"domiUser.h"
+i"domiAppConfig.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.h
+c000000004BFAE520000000000000045F
+t1274733856
+s1119
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPAD.h"
+i"domiRepo.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.m
+c000000004BFAE4B30000000000000B5C
+t1274733747
+s2908
+i"UserRepoSimulationViewControllerIPAD.h"
+i"domiPerson.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPHONE.h
+c000000004BFA0486000000000000014B
+t1274676358
+s331
+i<UIKit/UIKit.h>
+i"SimulationViewControllerIPHONE.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.h
+c000000004BFA048600000000000000F3
+t1274676358
+s243
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.m
+c000000004BFA048600000000000000C5
+t1274676358
+s197
+i"domiAccount.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.h
+c000000004BFA16190000000000000637
+t1274680857
+s1591
+i<Foundation/Foundation.h>
+i"domiObject.h"
+i"domiUser.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.m
+c000000004BFA160900000000000005F8
+t1274680841
+s1528
+i"domiAppConfig.h"
+i"FileUtil.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.h
+c000000004BFA048600000000000000FB
+t1274676358
+s251
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.m
+c000000004BFA048600000000000000D1
+t1274676358
+s209
+i"domiApplication.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.h
+c000000004BFA04860000000000000153
+t1274676358
+s339
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.m
+c000000004BFAE6AD00000000000001E1
+t1274734253
+s481
+i"domiDevice.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.h
+c000000004BFA048600000000000000EF
+t1274676358
+s239
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.m
+c000000004BFA048600000000000000BF
+t1274676358
+s191
+i"domiGroup.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.h
+c000000004BFA048600000000000000FA
+t1274676358
+s250
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.m
+c000000004BFA048600000000000000D1
+t1274676358
+s209
+i"domiInstruction.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.h
+c000000004BFAE58200000000000004D9
+t1274733954
+s1241
+i<Foundation/Foundation.h>
+i"JSON.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.m
+c000000004BFAE7730000000000000C9E
+t1274734451
+s3230
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.h
+c000000004BFAE47A0000000000000231
+t1274733690
+s561
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.m
+c000000004BFAE63A0000000000000470
+t1274734138
+s1136
+i"domiPerson.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.h
+c000000004BFA0F5000000000000002C8
+t1274679120
+s712
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.m
+c000000004BFA0FD60000000000000E96
+t1274679254
+s3734
+i"domiRepo.h"
+i"FileUtil.h"
+i"FileReader.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.h
+c000000004BFA048600000000000000F1
+t1274676358
+s241
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.m
+c000000004BFA048600000000000000C2
+t1274676358
+s194
+i"domiSensor.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.h
+c000000004BFA04860000000000000382
+t1274676358
+s898
+i<UIKit/UIKit.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.m
+c000000004BFA04860000000000000465
+t1274676358
+s1125
+i"domiSimulationAppDelegate.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.h
+c000000004BFA048600000000000000F5
+t1274676358
+s245
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.m
+c000000004BFA048600000000000000C8
+t1274676358
+s200
+i"domiTopology.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.h
+c000000004BFA048600000000000000EF
+t1274676358
+s239
+i<Foundation/Foundation.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.m
+c000000004BFA048600000000000000E2
+t1274676358
+s226
+i"domiTopologyService.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.h
+c000000004BFA048600000000000000F7
+t1274676358
+s247
+i<Foundation/Foundation.h>
+i"domiObject.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.m
+c000000004BFA048600000000000000CB
+t1274676358
+s203
+i"domiTransport.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.h
+c000000004BFA10A400000000000001D6
+t1274679460
+s470
+i<Foundation/Foundation.h>
+i"domiObject.h"
+i"domiRepo.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.m
+c000000004BFAE6A10000000000000315
+t1274734241
+s789
+i"domiUser.h"
+i"domiRepo.h"
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/MainWindow.xib
+c000000004BFA04860000000000007747
+t1274676358
+s30535
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/README
+c000000004BFA04860000000000000490
+t1274676358
+s1168
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/SplashScreenViewControllerIPAD.xib
+c000000004BFA04860000000000006B3A
+t1274676358
+s27450
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/UserRepoSimulationViewControllerIPAD.xib
+c000000004BFAE534000000000000ABB8
+t1274733876
+s43960
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app
+t1274734453
+s408
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app.dSYM
+t1274734453
+s102
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/DietAppSimulationViewControllerIPAD.nib
+t1274734264
+s1436
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/Info.plist
+t1274734263
+s852
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/JSON-README
+t1274734263
+s446
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/MainWindow.nib
+t1274734264
+s1809
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/PkgInfo
+t1274734263
+s8
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/README
+t1274734264
+s1168
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/SplashScreenViewControllerIPAD.nib
+t1274734264
+s1865
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/TopologySimulationViewControllerIPAD.nib
+t1274734264
+s1436
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/UserRepoSimulationViewControllerIPAD.nib
+t1274734264
+s4657
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD
+t1274734453
+s154480
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ActionListUIManager.o
+t1274734267
+s30704
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/AppConfig.o
+t1274679795
+s13224
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Connection.o
+t1274734266
+s29692
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DeviceListUIManager.o
+t1274734267
+s31920
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DietAppSimulationViewControllerIPAD.o
+t1274734267
+s35704
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DomiRepo.o
+t2
+s0
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileReader.o
+t1274734267
+s16648
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileUtil.o
+t1274734267
+s13184
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/LocalRoom.o
+t1274734266
+s16304
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSObject+SBJSON.o
+t1274734266
+s7764
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSString+SBJSON.o
+t1274734267
+s7784
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RemoteRoom.o
+t1274734266
+s14324
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Room.o
+t1274734266
+s9132
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RootViewController.o
+t1274734265
+s47896
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJSON.o
+t1274734267
+s16788
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonBase.o
+t1274734267
+s12128
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonParser.o
+t1274734267
+s29856
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonWriter.o
+t1274734267
+s22584
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Server.o
+t1274734266
+s22044
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ServerBrowser.o
+t1274734266
+s14036
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewController.o
+t1274734267
+s34192
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewControllerIPAD.o
+t1274734266
+s41444
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SplashScreenViewControllerIPAD.o
+t1274734266
+s35624
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TableViewSelectListManager.o
+t1274734267
+s44964
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TopologySimulationViewControllerIPAD.o
+t1274734267
+s35716
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserListUIManager.o
+t1274734267
+s30752
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserRepoSimulationViewControllerIPAD.o
+t1274734265
+s53300
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAccount.o
+t1274734266
+s4924
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAppConfig.o
+t1274734266
+s13308
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiApplication.o
+t1274734266
+s4940
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiDevice.o
+t1274734266
+s7788
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiGroup.o
+t1274734266
+s4912
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiInstruction.o
+t1274734266
+s4940
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiObject.o
+t1274734453
+s17164
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiPerson.o
+t1274734266
+s11540
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiRepo.o
+t1274734266
+s19552
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSensor.o
+t1274734266
+s4920
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSimulation-IPAD.LinkFileList
+c000000004BFAE6B70000000000001AED
+t1274734263
+s6893
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSimulationAppDelegate.o
+t1274734265
+s43004
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopology.o
+t1274734266
+s4928
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopologyService.o
+t1274734267
+s4940
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTransport.o
+t1274734266
+s4928
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiUser.o
+t1274734266
+s10012
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/main.o
+t1274734265
+s5964
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/domiSimulation_IPAD_Prefix.pch
+c000000004BFA04860000000000000158
+t1274676358
+s344
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Arbind/code/domi/simulation/domiSimulation/main.m
+c000000004BFA0486000000000000016C
+t1274676358
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-avplspbheytgrzekvisgbkycitzp/domiSimulation_IPAD_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch.gch
+t1274734265
+s13805456
+
+NdomiSimulation_IPAD-Info.plist
+c000000004BFA048600000000000004D6
+t1274676358
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296427259#296427259#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ActionListUIManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.553000
+e296427067.659127
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ActionListUIManager.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.m296427067#296427067#0(0"0(0#0#79"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.m4300911832#2265"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ActionListUIManager.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ActionListUIManager.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/AppConfig.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/AppConfig.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296372595.327166
+e296372595.424236
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/AppConfig.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/AppConfig.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/AppConfig.m296372595#296372595#0(0"0(0#0#69"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/AppConfig.m4300911832#2292"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/AppConfig.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/AppConfig.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Connection.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.762591
+e296427066.906469
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Connection.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.m296427066#296427066#0(0"0(0#0#70"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.m4300911832#2247"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Connection.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Connection.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DeviceListUIManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.459967
+e296427067.552896
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DeviceListUIManager.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.m296427067#296427067#0(0"0(0#0#79"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.m4300911832#2265"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DeviceListUIManager.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DeviceListUIManager.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DietAppSimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.443672
+e296427067.531799
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DietAppSimulationViewControllerIPAD.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.m296427067#296427067#0(0"0(0#0#95"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.m4300911832#2297"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DietAppSimulationViewControllerIPAD.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/DomiRepo.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DomiRepo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileReader.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.254933
+e296427067.348254
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileReader.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.m296427067#296427067#0(0"0(0#0#70"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.m4300911832#2247"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileReader.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileReader.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileUtil.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.282096
+e296427067.368408
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileUtil.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.m296427067#296427067#0(0"0(0#0#68"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.m4300911832#2243"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/FileUtil.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/FileUtil.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/LocalRoom.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.655821
+e296427066.762479
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/LocalRoom.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.m296427066#296427066#0(0"0(0#0#69"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.m4300911832#2245"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/LocalRoom.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/LocalRoom.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSObject+SBJSON.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.906574
+e296427066.967468
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.m296427066#296427066#0(0"0(0#0#80"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.m4300911832#2262"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSObject+SBJSON.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSString+SBJSON.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.967577
+e296427067.053753
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.m296427066#296427067#0(0"0(0#0#80"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.m4300911832#2262"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/NSString+SBJSON.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RemoteRoom.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.641515
+e296427066.731053
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RemoteRoom.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.m296427066#296427066#0(0"0(0#0#70"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.m4300911832#2247"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RemoteRoom.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RemoteRoom.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Room.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.588727
+e296427066.655714
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Room.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.m296427066#296427066#0(0"0(0#0#64"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.m4300911832#2235"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Room.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Room.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RootViewController.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427065.768508
+e296427065.913217
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RootViewController.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.m296427065#296427065#0(0"0(0#0#78"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.m4300911832#2263"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/RootViewController.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJSON.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.972620
+e296427067.092224
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJSON.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.m296427066#296427067#0(0"0(0#0#71"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.m4300911832#2244"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJSON.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonBase.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.053862
+e296427067.147185
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonBase.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.m296427067#296427067#0(0"0(0#0#75"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.m4300911832#2252"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonBase.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonParser.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.092547
+e296427067.254733
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonParser.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.m296427067#296427067#0(0"0(0#0#77"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.m4300911832#2256"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonParser.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonWriter.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.147309
+e296427067.281990
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.m296427067#296427067#0(0"0(0#0#77"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.m4300911832#2256"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/SBJsonWriter.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Server.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.731166
+e296427066.871873
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Server.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.m296427066#296427066#0(0"0(0#0#66"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.m4300911832#2239"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/Server.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/Server.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ServerBrowser.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.871989
+e296427066.972502
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ServerBrowser.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.m296427066#296427066#0(0"0(0#0#73"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.m4300911832#2253"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/ServerBrowser.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/ServerBrowser.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewController.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.348396
+e296427067.443570
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewController.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.m296427067#296427067#0(0"0(0#0#84"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.m4300911832#2275"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewController.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewController.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427065.913346
+e296427066.060444
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewControllerIPAD.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.m296427065#296427066#0(0"0(0#0#88"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.m4300911832#2283"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SimulationViewControllerIPAD.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SimulationViewControllerIPAD.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SplashScreenViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427065.938101
+e296427066.021278
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SplashScreenViewControllerIPAD.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.m296427065#296427066#0(0"0(0#0#90"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.m4300911832#2287"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/SplashScreenViewControllerIPAD.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/SplashScreenViewControllerIPAD.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TableViewSelectListManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.531908
+e296427067.669419
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TableViewSelectListManager.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.m296427067#296427067#0(0"0(0#0#86"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.m4300911832#2279"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TableViewSelectListManager.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TableViewSelectListManager.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TopologySimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.368520
+e296427067.459858
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TopologySimulationViewControllerIPAD.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.m296427067#296427067#0(0"0(0#0#96"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.m4300911832#2299"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/TopologySimulationViewControllerIPAD.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserListUIManager.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.659229
+e296427067.750325
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserListUIManager.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.m296427067#296427067#0(0"0(0#0#77"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.m4300911832#2261"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserListUIManager.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserListUIManager.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserRepoSimulationViewControllerIPAD.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427065.803745
+e296427065.938002
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserRepoSimulationViewControllerIPAD.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.m296427065#296427065#0(0"0(0#0#96"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.m4300911832#2299"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/UserRepoSimulationViewControllerIPAD.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/UserRepoSimulationViewControllerIPAD.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAccount.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.172084
+e296427066.264870
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAccount.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.m296427066#296427066#0(0"0(0#0#71"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.m4300911832#2249"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAccount.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAccount.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAppConfig.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.060548
+e296427066.146248
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAppConfig.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.m296427066#296427066#0(0"0(0#0#73"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.m4300911832#2253"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiAppConfig.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiAppConfig.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiApplication.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.239563
+e296427066.308087
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiApplication.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.m296427066#296427066#0(0"0(0#0#75"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.m4300911832#2257"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiApplication.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiApplication.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiDevice.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.350520
+e296427066.449828
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiDevice.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.m296427066#296427066#0(0"0(0#0#70"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.m4300911832#2247"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiDevice.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiDevice.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiGroup.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.308192
+e296427066.375287
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiGroup.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.m296427066#296427066#0(0"0(0#0#69"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.m4300911832#2245"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiGroup.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiGroup.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiInstruction.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.515662
+e296427066.588625
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiInstruction.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.m296427066#296427066#0(0"0(0#0#75"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.m4300911832#2257"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiInstruction.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiInstruction.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiObject.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427253.734260
+e296427253.815937
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiObject.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.m296427253#296427253#0(0"0(0#0#70"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.m4300911832#2247"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiObject.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiObject.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiPerson.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.264981
+e296427066.350418
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiPerson.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.m296427066#296427066#0(0"0(0#0#70"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.m4300911832#2247"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiPerson.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiPerson.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiRepo.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.516843
+e296427066.641420
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiRepo.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.m296427066#296427066#0(0"0(0#0#68"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.m4300911832#2243"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiRepo.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiRepo.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSensor.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.375395
+e296427066.446624
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSensor.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.m296427066#296427066#0(0"0(0#0#70"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.m4300911832#2247"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSensor.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSensor.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSimulationAppDelegate.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427065.687290
+e296427065.803641
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSimulationAppDelegate.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.m296427065#296427065#0(0"0(0#0#85"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.m4300911832#2277"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiSimulationAppDelegate.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSimulationAppDelegate.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopology.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.446727
+e296427066.516764
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopology.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.m296427066#296427066#0(0"0(0#0#72"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.m4300911832#2251"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopology.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopology.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopologyService.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427067.669540
+e296427067.732033
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopologyService.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.m296427067#296427067#0(0"0(0#0#79"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.m4300911832#2265"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTopologyService.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTopologyService.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTransport.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.449931
+e296427066.515543
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTransport.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.m296427066#296427066#0(0"0(0#0#73"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.m4300911832#2253"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiTransport.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiTransport.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiUser.o /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427066.146357
+e296427066.239463
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiUser.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.m296427066#296427066#0(0"0(0#0#68"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.m4300911832#2243"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/Classes/domiUser.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiUser.o0#
+
+CCompileC build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/main.o /Users/Arbind/code/domi/simulation/domiSimulation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427065.686019
+e296427065.768400
+r1
+xCompileC
+xbuild/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/main.o
+x/Users/Arbind/code/domi/simulation/domiSimulation/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Arbind/code/domi/simulation/domiSimulation/main.m296427065#296427065#0(0"0(0#0#56"/Users/Arbind/code/domi/simulation/domiSimulation/main.m4300911832#2227"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -include /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch -c /Users/Arbind/code/domi/simulation/domiSimulation/main.m -o /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.xib
+s296427064.527714
+e296427064.890896
+r1
+xCompileXIB
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.xib
+lSLF07#2@58"CompileXIB Classes/DietAppSimulationViewControllerIPAD.xib296427064#296427064#0(0"0(0#0#97"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.xib4300911832#583"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/DietAppSimulationViewControllerIPAD.nib /Users/Arbind/code/domi/simulation/domiSimulation/Classes/DietAppSimulationViewControllerIPAD.xib0#
+
+CCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.xib
+s296427064.138925
+e296427064.527621
+r1
+xCompileXIB
+x/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.xib
+lSLF07#2@59"CompileXIB Classes/TopologySimulationViewControllerIPAD.xib296427064#296427064#0(0"0(0#0#98"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.xib4300911832#585"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/TopologySimulationViewControllerIPAD.nib /Users/Arbind/code/domi/simulation/domiSimulation/Classes/TopologySimulationViewControllerIPAD.xib0#
+
+CCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/MainWindow.xib
+s296427063.722852
+e296427064.116621
+r1
+xCompileXIB
+x/Users/Arbind/code/domi/simulation/domiSimulation/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib296427063#296427064#0(0"0(0#0#64"/Users/Arbind/code/domi/simulation/domiSimulation/MainWindow.xib4300911832#525"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/MainWindow.nib /Users/Arbind/code/domi/simulation/domiSimulation/MainWindow.xib0#
+
+CCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/SplashScreenViewControllerIPAD.xib
+s296427063.727362
+e296427064.136913
+r1
+xCompileXIB
+x/Users/Arbind/code/domi/simulation/domiSimulation/SplashScreenViewControllerIPAD.xib
+lSLF07#2@45"CompileXIB SplashScreenViewControllerIPAD.xib296427063#296427064#0(0"0(0#0#84"/Users/Arbind/code/domi/simulation/domiSimulation/SplashScreenViewControllerIPAD.xib4300911832#565"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/SplashScreenViewControllerIPAD.nib /Users/Arbind/code/domi/simulation/domiSimulation/SplashScreenViewControllerIPAD.xib0#
+
+CCompileXIB /Users/Arbind/code/domi/simulation/domiSimulation/UserRepoSimulationViewControllerIPAD.xib
+s296427064.116712
+e296427064.730854
+r1
+xCompileXIB
+x/Users/Arbind/code/domi/simulation/domiSimulation/UserRepoSimulationViewControllerIPAD.xib
+lSLF07#2@51"CompileXIB UserRepoSimulationViewControllerIPAD.xib296427064#296427064#0(0"0(0#0#90"/Users/Arbind/code/domi/simulation/domiSimulation/UserRepoSimulationViewControllerIPAD.xib4300911832#577"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/UserRepoSimulationViewControllerIPAD.nib /Users/Arbind/code/domi/simulation/domiSimulation/UserRepoSimulationViewControllerIPAD.xib0#
+
+CCpResource build/Debug-iphonesimulator/domiSimulation-IPAD.app/JSON-README Classes/JSON/JSON-README
+s296427063.722145
+e296427063.727269
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/domiSimulation-IPAD.app/JSON-README
+xClasses/JSON/JSON-README
+lSLF07#2@29"Copy Classes/JSON/JSON-README296427063#296427063#0(0"0(0#0#74"/Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/JSON-README4300911832#513"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arbind/code/domi/simulation/domiSimulation/Classes/JSON/JSON-README /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app0#
+
+CCpResource build/Debug-iphonesimulator/domiSimulation-IPAD.app/README README
+s296427064.137042
+e296427064.148885
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/domiSimulation-IPAD.app/README
+xREADME
+lSLF07#2@11"Copy README296427064#296427064#0(0"0(0#0#56"/Users/Arbind/code/domi/simulation/domiSimulation/README4300911832#495"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arbind/code/domi/simulation/domiSimulation/README /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app0#
+
+CGenerateDSYMFile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app.dSYM /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD
+s296427253.856332
+e296427253.905878
+r1
+xGenerateDSYMFile
+x/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app.dSYM
+x/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/domiSimulation-IPAD.app.dSYM build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD296427253#296427253#0(0"0(0#0#121"/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD4300911832#452"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD -o /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app.dSYM0#
+
+CLd /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD normal i386
+s296427253.816038
+e296427253.856219
+r1
+xLd
+x/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD
+xnormal
+xi386
+lSLF07#2@126"Link /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD296427253#296427253#0(0"0(0#0#0"4300911832#977"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -filelist /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/Objects-normal/i386/domiSimulation-IPAD.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/domiSimulation-IPAD0#
+
+CProcessInfoPlistFile /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/Info.plist domiSimulation_IPAD-Info.plist
+s296427063.702448
+e296427063.722052
+r1
+xProcessInfoPlistFile
+x/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/Info.plist
+xdomiSimulation_IPAD-Info.plist
+lSLF07#2@38"Process domiSimulation_IPAD-Info.plist296427063#296427063#0(0"0(0#0#80"/Users/Arbind/code/domi/simulation/domiSimulation/domiSimulation_IPAD-Info.plist4300911832#548"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility domiSimulation_IPAD-Info.plist -genpkginfo /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app/Info.plist0#
+
+CProcessPCH /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-avplspbheytgrzekvisgbkycitzp/domiSimulation_IPAD_Prefix.pch.gch domiSimulation_IPAD_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch.gch domiSimulation_IPAD_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s296427064.891032
+e296427065.685777
+r1
+xProcessPCH
+x/var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch.gch
+xdomiSimulation_IPAD_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile domiSimulation_IPAD_Prefix.pch296427064#296427065#0(0"0(0#0#80"/Users/Arbind/code/domi/simulation/domiSimulation/domiSimulation_IPAD_Prefix.pch4300911832#2096"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-generated-files.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-own-target-headers.hmap -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-all-target-headers.hmap -iquote /Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/domiSimulation-IPAD-project-headers.hmap -F/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator -I/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/include -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources/i386 -I/Users/Arbind/code/domi/simulation/domiSimulation/build/domiSimulation-IPAD.build/Debug-iphonesimulator/domiSimulation-IPAD.build/DerivedSources -DIPAD=1 -c /Users/Arbind/code/domi/simulation/domiSimulation/domiSimulation_IPAD_Prefix.pch -o /var/folders/Vb/VboLSBsRF2ObRhHg9U+QZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/domiSimulation_IPAD_Prefix-hirspghmhxfktgdtoltysayfqxuu/domiSimulation_IPAD_Prefix.pch.gch0#
+
+CTouch /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app
+s296427253.905967
+e296427253.908600
+r1
+xTouch
+x/Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app
+lSLF07#2@107"Touch /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app296427253#296427253#0(0"0(0#0#0"4300911832#312"    cd /Users/Arbind/code/domi/simulation/domiSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Arbind/code/domi/simulation/domiSimulation/build/Debug-iphonesimulator/domiSimulation-IPAD.app0#
+

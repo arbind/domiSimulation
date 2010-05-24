@@ -7,10 +7,13 @@
 //
 
 #import "TopologySimulationViewControllerIPHONE.h"
-
+#import "domiAppConfig.h"
+#import "domiUser.h"
 
 @implementation TopologySimulationViewControllerIPHONE
 @synthesize usersTableView, devicesTableView, actionsTableView;
+@synthesize userNameInput;
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -27,7 +30,9 @@
     [super viewDidLoad];
 	userManager = [[UserListUIManager alloc] initWithTable:self.usersTableView];	
 	deviceManager = [[[DeviceListUIManager alloc] initWithTable:self.devicesTableView] retain];
-	actionManager = [[ActionListUIManager alloc] initWithTable:self.actionsTableView];		
+	actionManager = [[ActionListUIManager alloc] initWithTable:self.actionsTableView];
+
+	userManager.multiSelectable = NO;
 }
 
 
@@ -58,5 +63,17 @@
     [super dealloc];
 }
 
+-(IBAction) addUser:(id)sender {
+	[self.userNameInput resignFirstResponder];
+	NSString *userName = userNameInput.text;
+	domiAppConfig *appConfig = [domiAppConfig getInstance];
+
+	domiUser* newUser = [appConfig createUser:userName];
+	if (nil==newUser) {
+		NSLog(@"Could Not Create New User for: %@", userName);
+
+	}
+	[userManager reloadData];
+}
 
 @end

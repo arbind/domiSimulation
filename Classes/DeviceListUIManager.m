@@ -42,5 +42,17 @@
 	return self;
 }
 
+-(void) reloadData {
+	[deviceManager reloadData];
+}
+
+-(BOOL) isMultiSelectable {
+	return deviceManager.isMultiSelectable ;
+}
+
+-(void) setMultiSelectable:(BOOL)b {
+	deviceManager.multiSelectable=b;
+}
+
 
 @end

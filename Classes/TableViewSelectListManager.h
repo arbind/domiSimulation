@@ -39,5 +39,6 @@
 -(id)initWithTable:(UITableView *)t keySelector:(SEL)selector andDelegate:(id<TableViewSelectListManagerDelegate>)d;
 
 -(void)populateList:(NSArray *)replacementList;
+-(void) reloadData;
 
 @end

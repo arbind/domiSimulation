@@ -35,21 +35,24 @@
 	return self;
 }
 
-
+-(void) reloadData {
+	[self.uiTableView reloadData];
+}
 
 -(void)populateList:(NSArray *)replacementList {
 	[list removeAllObjects];
 	[list addObjectsFromArray:replacementList];
 	
-	//unselect any items that were removeds
-	if (0==[selections count]) return;
-	
+	//unselect any items that were removeds	
 	NSMutableArray *removeList = [[NSMutableArray alloc] init];
-	id key;
-	for (id item in list) {
-		key = [self keyForItem:item];
-		if (nil==key) [removeList addObject:key];
+	id selectedItem;
+	int idx;
+	for (id key in [selections allKeys]) {
+		selectedItem = [selections objectForKey:key];
+		idx = [list indexOfObject:selectedItem];
+		if (NSNotFound==idx) [removeList addObject:key];
 	}
+	
 	for(id k in removeList) {
 		[selections removeObjectForKey:k];
 	}

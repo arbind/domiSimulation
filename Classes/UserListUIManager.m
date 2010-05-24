@@ -8,29 +8,13 @@
 
 #import "UserListUIManager.h"
 #import "domiUser.h"
+#import "domiAppConfig.h"
 
 @implementation UserListUIManager
 
 -(void) populateUserList{
-	NSMutableArray *userList = [[NSMutableArray alloc] init];
-	domiUser *user;
-	user = [[domiUser alloc] init]; [user setName:@"User1"];
-	[userList addObject:user]; [user release];
-	
-	user = [[domiUser alloc] init]; [user setName:@"User2"];
-	[userList addObject:user]; [user release];
-	
-	user = [[domiUser alloc] init]; [user setName:@"User3"];
-	[userList addObject:user]; [user release];
-	
-	user = [[domiUser alloc] init]; [user setName:@"User4"];
-	[userList addObject:user]; [user release];
-	
-	user = [[domiUser alloc] init]; [user setName:@"User5"];
-	[userList addObject:user]; [user release];
-	
-	user = [[domiUser alloc] init]; [user setName:@"User6"];
-	[userList addObject:user]; [user release];
+	domiAppConfig * appConfig = [domiAppConfig getInstance];
+	NSArray *userList = [appConfig localUsers];
 	
 	[userManager populateList:userList];
 }
@@ -39,7 +23,7 @@
 	self = [super init];
 	if (!self) return nil;	
 	
-	SEL s = @selector(name);
+	SEL s = @selector(userName);
 	userManager = [[TableViewSelectListManager alloc] initWithTable:t keySelector:s andDelegate:self];	
 	[userManager setSectionHeader:@"Users"];
 	
@@ -48,6 +32,10 @@
 	[self populateUserList];
 	
 	return self;
+}
+
+-(void) reloadData {
+	[self populateUserList];
 }
 
 -(BOOL) isMultiSelectable {

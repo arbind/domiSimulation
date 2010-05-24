@@ -8,26 +8,40 @@
 
 #import "FileUtil.h"
 
-
 #define DIR_DOCUMENTS [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
 #define DIR_DOMI [DIR_DOCUMENTS stringByAppendingPathComponent:@"domi"]
 
 @implementation FileUtil
 
-
-+(NSString *) userHome:(NSString *)userName {
-	//if (nil==userName || [NULL isEqual:userName] || 0==[userName length]) return nil;
++(NSString *) domiHomeDir {
 	BOOL dirOK = [FileUtil createDir:DIR_DOMI];
 	if (YES==dirOK){
-		NSLog(@"created domi dir: %@", DIR_DOMI);
+		return DIR_DOMI;
 	}
 	else {
-		NSLog(@"ERROR creating domi dir: %@", DIR_DOMI);
+		return nil;
+	}	
+}
+
++(NSString *) usersDir {
+	NSString *domiDir = [FileUtil domiHomeDir];
+	if (nil==domiDir) return nil;
+	NSString *usersDir = [domiDir stringByAppendingPathComponent:@"users"];
+	BOOL dirOK = [FileUtil createDir:usersDir];
+	if (YES==dirOK){
+		return usersDir;	
+	}
+	else {
 		return nil;
 	}
-	
-	NSString *home = [DIR_DOMI stringByAppendingPathComponent:[userName lowercaseString]];
-	dirOK = [FileUtil createDir:home];
+}
+
++(NSString *) userHomeDir:(NSString *)userName {
+	//if (nil==userName || [NULL isEqual:userName] || 0==[userName length]) return nil;
+	NSString *usersDir = [FileUtil usersDir];
+	if (nil==usersDir) return nil;
+	NSString *home = [usersDir stringByAppendingPathComponent:[userName lowercaseString]];
+	BOOL dirOK = [FileUtil createDir:home];
 	if (YES==dirOK){
 		NSLog(@"created user dir: %@", home);
 		return home;	
@@ -36,6 +50,15 @@
 		NSLog(@"ERROR creating user dir: %@", home);
 		return nil;
 	}
+}
+
++ (NSArray *) directoryList:(NSString *) dirPath {
+	BOOL dirOK = [FileUtil directoryExists:dirPath];
+	if (NO==dirOK) return nil;
+	
+	NSFileManager *fileManager= [NSFileManager defaultManager]; 
+	NSArray *dirContents = [fileManager directoryContentsAtPath:dirPath];
+	return dirContents;
 }
 
 +(NSString *) pathToFilename:(NSString *)fileName {

@@ -6,7 +6,7 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "DomiRepo.h"
+#import "domiRepo.h"
 
 #import "FileUtil.h"
 #import "FileReader.h"
@@ -14,7 +14,7 @@
 NSString * const kID = @"id";
 NSString * const kHEAD = @"head";
 
-@implementation DomiRepo
+@implementation domiRepo
 @synthesize unique, repoHeadFilePath;
 
 
@@ -45,11 +45,17 @@ NSString * const kHEAD = @"head";
 }
 
 
+
++(domiRepo *) repoForUser:(NSString *)userName {
+	domiRepo *repo = [[domiRepo alloc] initForUser:userName];
+	return repo;
+}
+
 -(id) initForUser:(NSString *)userName {
 	self = [super init];
 	if (!self) return nil;
-	NSString *userHome = [FileUtil userHome:userName];
-	repoPath = [[userHome stringByAppendingPathComponent:@"repo"] retain];
+	NSString *userHomeDir = [FileUtil userHomeDir:userName];
+	repoPath = [[userHomeDir stringByAppendingPathComponent:@"repo"] retain];
 	BOOL repoExists = [FileUtil createDir:repoPath];
 	if (NO==repoExists) {
 		NSLog(@"ERROR could not create repo: %@", repoPath);
@@ -83,7 +89,7 @@ NSString * const kHEAD = @"head";
 
 }
 
--(void)merge:(DomiRepo*)otherRepo {
+-(void)merge:(domiRepo*)otherRepo {
 }
 
 -(void)mergeTestForFile1:(NSString *)oneFile file2:(NSString *)twoFile outFile:(NSString *)outFile {

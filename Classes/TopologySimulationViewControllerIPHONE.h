@@ -12,13 +12,14 @@
 #import "DeviceListUIManager.h"
 #import "ActionListUIManager.h"
 
-@interface TopologySimulationViewControllerIPHONE : SimulationViewControllerIPHONE<TableViewSelectListManagerDelegate> {
-
+@interface TopologySimulationViewControllerIPHONE : SimulationViewControllerIPHONE<TableViewSelectListManagerDelegate, UITextFieldDelegate> {
 	UITableView *usersTableView;
 	UITableView *devicesTableView;
 	UITableView *actionsTableView;
 	
-	DeviceListUIManager *userManager;
+	UITextField *userNameInput;
+	
+	UserListUIManager *userManager;
 	DeviceListUIManager *deviceManager;
 	ActionListUIManager *actionManager;
 }
@@ -26,5 +27,8 @@
 @property (nonatomic, retain) IBOutlet UITableView *usersTableView;
 @property (nonatomic, retain) IBOutlet UITableView *devicesTableView;
 @property (nonatomic, retain) IBOutlet UITableView *actionsTableView;
+@property (nonatomic, retain) IBOutlet UITextField *userNameInput;
+
+-(IBAction) addUser:(id)sender;
 
 @end

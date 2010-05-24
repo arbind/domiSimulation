@@ -197,6 +197,23 @@
 					</object>
 					<int key="connectionID">14</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">addUser:</string>
+						<reference key="source" ref="752637129"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">15</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">userNameInput</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="211248532"/>
+					</object>
+					<int key="connectionID">16</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -282,7 +299,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>TopologySimulationViewControllerIPHONE</string>
 					<string>UIResponder</string>
-					<string>{{583, 276}, {320, 480}}</string>
+					<string>{{664, 246}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -307,7 +324,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">14</int>
+			<int key="maxID">16</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -345,18 +362,24 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">TopologySimulationViewControllerIPHONE</string>
 					<string key="superclassName">SimulationViewControllerIPHONE</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">addUser:</string>
+						<string key="NS.object.0">id</string>
+					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>actionsTableView</string>
 							<string>devicesTableView</string>
+							<string>userNameInput</string>
 							<string>usersTableView</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UITableView</string>
 							<string>UITableView</string>
+							<string>UITextField</string>
 							<string>UITableView</string>
 						</object>
 					</object>

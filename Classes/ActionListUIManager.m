@@ -33,4 +33,16 @@
 	return self;
 }
 
+-(void) reloadData {
+	[actionManager reloadData];
+}
+
+-(BOOL) isMultiSelectable {
+	return actionManager.isMultiSelectable ;
+}
+
+-(void) setMultiSelectable:(BOOL)b {
+	actionManager.multiSelectable=b;
+}
+
 @end

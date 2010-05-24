@@ -17,4 +17,7 @@
 
 -(id) initWithTable:(UITableView *)t;
 
+-(void) reloadData;
+-(BOOL) isMultiSelectable;
+-(void) setMultiSelectable:(BOOL)b;
 @end

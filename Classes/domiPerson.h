@@ -14,7 +14,7 @@
 }
 
 @property (nonatomic, retain) NSString *name;
-@property (nonatomic, readonly) NSMutableDictionary *preferences;
+@property (nonatomic, retain) NSMutableDictionary *preferences;
 
 @property (nonatomic, retain) id privateRepo;
 @property (nonatomic, retain) id anonymousRepo;

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "SimulationViewControllerIPAD.h"
-#import "DomiRepo.h"
+#import "domiRepo.h"
 
 @interface UserRepoSimulationViewControllerIPAD : SimulationViewControllerIPAD {
 
@@ -21,8 +21,8 @@
 	IBOutlet UITextView *repoView1;
 	IBOutlet UITextView *repoView2;
 	
-	DomiRepo *repo1;
-	DomiRepo *repo2;	
+	domiRepo *repo1;
+	domiRepo *repo2;	
 	
 }
 
@@ -35,11 +35,13 @@
 @property(nonatomic, retain) IBOutlet UITextView *repoView1;
 @property(nonatomic, retain) IBOutlet UITextView *repoView2;
 
-@property(nonatomic, retain) DomiRepo *repo1;
-@property(nonatomic, retain) DomiRepo *repo2;	
+@property(nonatomic, retain) domiRepo *repo1;
+@property(nonatomic, retain) domiRepo *repo2;	
 
 -(IBAction) saveUser1:(id) sender;
 -(IBAction) saveUser2:(id) sender;
+
+-(IBAction) JSONTest:(id) sender;
 
 @end
 

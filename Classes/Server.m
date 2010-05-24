@@ -32,7 +32,7 @@
 
 #import "Server.h"
 #import "Connection.h"
-#import "AppConfig.h"
+#import "domiAppConfig.h"
 
 // Declare some private properties and methods
 @interface Server ()
@@ -225,7 +225,7 @@ static void serverAcceptCallback(CFSocketRef socket, CFSocketCallBackType type, 
 
 - (BOOL) publishService {
   // come up with a name for our chat room
-  NSString* chatRoomName = [NSString stringWithFormat:@"%@'s chat room", [[AppConfig getInstance] name]];
+  NSString* chatRoomName = [NSString stringWithFormat:@"%@'s chat room", [[domiAppConfig getInstance] deviceName]];
 
   // create new instance of netService
  	self.netService = [[NSNetService alloc]
