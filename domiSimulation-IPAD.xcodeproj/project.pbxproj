@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* domiSimulationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2804200B108E984D000629CD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RootViewController.m */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		F41F749511A9A7A50082D3AC /* SimulationViewControllerIPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749011A9A7A50082D3AC /* SimulationViewControllerIPAD.m */; };
+		F41F749611A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749211A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m */; };
+		F41F749711A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749411A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m */; };
+		F41F74B511A9A7EF0082D3AC /* domiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749B11A9A7EF0082D3AC /* domiObject.m */; };
+		F41F74B611A9A7EF0082D3AC /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749E11A9A7EF0082D3AC /* AppConfig.m */; };
+		F41F74B711A9A7EF0082D3AC /* domiUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A011A9A7EF0082D3AC /* domiUser.m */; };
+		F41F74B811A9A7EF0082D3AC /* domiAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A211A9A7EF0082D3AC /* domiAccount.m */; };
+		F41F74B911A9A7EF0082D3AC /* domiApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A411A9A7EF0082D3AC /* domiApplication.m */; };
+		F41F74BA11A9A7EF0082D3AC /* domiPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A711A9A7EF0082D3AC /* domiPerson.m */; };
+		F41F74BB11A9A7EF0082D3AC /* domiGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A911A9A7EF0082D3AC /* domiGroup.m */; };
+		F41F74BC11A9A7EF0082D3AC /* domiDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AB11A9A7EF0082D3AC /* domiDevice.m */; };
+		F41F74BD11A9A7EF0082D3AC /* domiSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AD11A9A7EF0082D3AC /* domiSensor.m */; };
+		F41F74BE11A9A7EF0082D3AC /* domiTopology.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AF11A9A7EF0082D3AC /* domiTopology.m */; };
+		F41F74BF11A9A7EF0082D3AC /* domiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B111A9A7EF0082D3AC /* domiTransport.m */; };
+		F41F74C011A9A7EF0082D3AC /* domiInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B411A9A7EF0082D3AC /* domiInstruction.m */; };
+		F41F74EB11A9A8000082D3AC /* DomiRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C411A9A8000082D3AC /* DomiRepo.m */; };
+		F41F74EC11A9A8000082D3AC /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C811A9A8000082D3AC /* Room.m */; };
+		F41F74ED11A9A8000082D3AC /* RemoteRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CB11A9A8000082D3AC /* RemoteRoom.m */; };
+		F41F74EE11A9A8000082D3AC /* LocalRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CD11A9A8000082D3AC /* LocalRoom.m */; };
+		F41F74EF11A9A8000082D3AC /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CF11A9A8000082D3AC /* Server.m */; };
+		F41F74F011A9A8000082D3AC /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74D211A9A8000082D3AC /* Connection.m */; };
+		F41F74F111A9A8000082D3AC /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74D511A9A8000082D3AC /* ServerBrowser.m */; };
+		F41F74F211A9A8000082D3AC /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74DB11A9A8000082D3AC /* NSObject+SBJSON.m */; };
+		F41F74F311A9A8000082D3AC /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74DD11A9A8000082D3AC /* NSString+SBJSON.m */; };
+		F41F74F411A9A8000082D3AC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74DF11A9A8000082D3AC /* SBJSON.m */; };
+		F41F74F511A9A8000082D3AC /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E111A9A8000082D3AC /* SBJsonBase.m */; };
+		F41F74F611A9A8000082D3AC /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E311A9A8000082D3AC /* SBJsonParser.m */; };
+		F41F74F711A9A8000082D3AC /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E511A9A8000082D3AC /* SBJsonWriter.m */; };
+		F41F74F811A9A8000082D3AC /* JSON-README in Resources */ = {isa = PBXBuildFile; fileRef = F41F74E611A9A8000082D3AC /* JSON-README */; };
+		F41F74F911A9A8000082D3AC /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E811A9A8000082D3AC /* FileReader.m */; };
+		F41F74FA11A9A8000082D3AC /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74EA11A9A8000082D3AC /* FileUtil.m */; };
+		F41F74FF11A9A8420082D3AC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41F74FC11A9A8420082D3AC /* MainWindow.xib */; };
+		F41F750011A9A8420082D3AC /* SplashScreenViewControllerIPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41F74FD11A9A8420082D3AC /* SplashScreenViewControllerIPAD.xib */; };
+		F41F750111A9A8420082D3AC /* UserRepoSimulationViewControllerIPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41F74FE11A9A8420082D3AC /* UserRepoSimulationViewControllerIPAD.xib */; };
+		F41F750A11A9A8810082D3AC /* README in Resources */ = {isa = PBXBuildFile; fileRef = F41F750911A9A8810082D3AC /* README */; };
+		F43366A511A9B298002FF527 /* MainWindowIPHONE.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41F750411A9A8630082D3AC /* MainWindowIPHONE.xib */; };
+		F43366A611A9B298002FF527 /* iPhoneRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41F756711A9B1DB0082D3AC /* iPhoneRootViewController.xib */; };
+		F433676111A9B2B3002FF527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F433676211A9B2B3002FF527 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F433676311A9B2B3002FF527 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		F433676411A9B2C3002FF527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		F433676511A9B2C3002FF527 /* domiSimulationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */; };
+		F433676A11A9B2C3002FF527 /* domiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749B11A9A7EF0082D3AC /* domiObject.m */; };
+		F433676B11A9B2C3002FF527 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F749E11A9A7EF0082D3AC /* AppConfig.m */; };
+		F433676C11A9B2C3002FF527 /* domiUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A011A9A7EF0082D3AC /* domiUser.m */; };
+		F433676D11A9B2C3002FF527 /* domiAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A211A9A7EF0082D3AC /* domiAccount.m */; };
+		F433676E11A9B2C3002FF527 /* domiApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A411A9A7EF0082D3AC /* domiApplication.m */; };
+		F433676F11A9B2C3002FF527 /* domiPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A711A9A7EF0082D3AC /* domiPerson.m */; };
+		F433677011A9B2C3002FF527 /* domiGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74A911A9A7EF0082D3AC /* domiGroup.m */; };
+		F433677111A9B2C3002FF527 /* domiDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AB11A9A7EF0082D3AC /* domiDevice.m */; };
+		F433677211A9B2C3002FF527 /* domiSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AD11A9A7EF0082D3AC /* domiSensor.m */; };
+		F433677311A9B2C3002FF527 /* domiTopology.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74AF11A9A7EF0082D3AC /* domiTopology.m */; };
+		F433677411A9B2C3002FF527 /* domiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B111A9A7EF0082D3AC /* domiTransport.m */; };
+		F433677511A9B2C3002FF527 /* domiInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74B411A9A7EF0082D3AC /* domiInstruction.m */; };
+		F433677611A9B2C3002FF527 /* DomiRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C411A9A8000082D3AC /* DomiRepo.m */; };
+		F433677711A9B2C3002FF527 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74C811A9A8000082D3AC /* Room.m */; };
+		F433677811A9B2C3002FF527 /* RemoteRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CB11A9A8000082D3AC /* RemoteRoom.m */; };
+		F433677911A9B2C3002FF527 /* LocalRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CD11A9A8000082D3AC /* LocalRoom.m */; };
+		F433677A11A9B2C3002FF527 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74CF11A9A8000082D3AC /* Server.m */; };
+		F433677B11A9B2C3002FF527 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74D211A9A8000082D3AC /* Connection.m */; };
+		F433677C11A9B2C3002FF527 /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74D511A9A8000082D3AC /* ServerBrowser.m */; };
+		F433677D11A9B2C3002FF527 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74DB11A9A8000082D3AC /* NSObject+SBJSON.m */; };
+		F433677E11A9B2C3002FF527 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74DD11A9A8000082D3AC /* NSString+SBJSON.m */; };
+		F433677F11A9B2C3002FF527 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74DF11A9A8000082D3AC /* SBJSON.m */; };
+		F433678011A9B2C3002FF527 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E111A9A8000082D3AC /* SBJsonBase.m */; };
+		F433678111A9B2C3002FF527 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E311A9A8000082D3AC /* SBJsonParser.m */; };
+		F433678211A9B2C3002FF527 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E511A9A8000082D3AC /* SBJsonWriter.m */; };
+		F433678311A9B2C3002FF527 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74E811A9A8000082D3AC /* FileReader.m */; };
+		F433678411A9B2C3002FF527 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F74EA11A9A8000082D3AC /* FileUtil.m */; };
+		F43367FD11A9B6E3002FF527 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RootViewController.m */; };
+		F435121311A9C53D008747D8 /* SimulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F435121111A9C53D008747D8 /* SimulationViewController.m */; };
+		F435127611A9CE27008747D8 /* SplashScreenViewControllerIPHONE.xib in Resources */ = {isa = PBXBuildFile; fileRef = F435126411A9CC76008747D8 /* SplashScreenViewControllerIPHONE.xib */; };
+		F435127811A9CE4B008747D8 /* SimulationViewControllerIPHONE.m in Sources */ = {isa = PBXBuildFile; fileRef = F435121611A9C58C008747D8 /* SimulationViewControllerIPHONE.m */; };
+		F435127A11A9CE4B008747D8 /* SplashScreenViewControllerIPHONE.m in Sources */ = {isa = PBXBuildFile; fileRef = F435126311A9CC76008747D8 /* SplashScreenViewControllerIPHONE.m */; };
+		F435131911A9D4FD008747D8 /* SimulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F435121111A9C53D008747D8 /* SimulationViewController.m */; };
+		F435137011A9D918008747D8 /* TopologySimulationViewControllerIPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = F435136E11A9D918008747D8 /* TopologySimulationViewControllerIPAD.m */; };
+		F435137111A9D918008747D8 /* TopologySimulationViewControllerIPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = F435136F11A9D918008747D8 /* TopologySimulationViewControllerIPAD.xib */; };
+		F435137511A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.m in Sources */ = {isa = PBXBuildFile; fileRef = F435137311A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.m */; };
+		F435137611A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.xib in Resources */ = {isa = PBXBuildFile; fileRef = F435137411A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.xib */; };
+		F43513A911A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = F43513A711A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.m */; };
+		F43513AA11A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43513A811A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.xib */; };
+		F43513BB11A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.m in Sources */ = {isa = PBXBuildFile; fileRef = F43513B911A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.m */; };
+		F43513BC11A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43513BA11A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.xib */; };
+		F43513D711A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.m in Sources */ = {isa = PBXBuildFile; fileRef = F43513D511A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.m */; };
+		F43513D811A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43513D611A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.xib */; };
+		F435140C11A9E331008747D8 /* DeviceListUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F435140B11A9E331008747D8 /* DeviceListUIManager.m */; };
+		F435140D11A9E331008747D8 /* DeviceListUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F435140B11A9E331008747D8 /* DeviceListUIManager.m */; };
+		F435149411A9EEF1008747D8 /* TableViewSelectListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F435149311A9EEF1008747D8 /* TableViewSelectListManager.m */; };
+		F435149511A9EEF1008747D8 /* TableViewSelectListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F435149311A9EEF1008747D8 /* TableViewSelectListManager.m */; };
+		F43514D111A9F8D7008747D8 /* ActionListUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F43514D011A9F8D7008747D8 /* ActionListUIManager.m */; };
+		F43514D211A9F8D7008747D8 /* ActionListUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F43514D011A9F8D7008747D8 /* ActionListUIManager.m */; };
+		F4E998F211AA11C0001BFB84 /* UserListUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E998F111AA11C0001BFB84 /* UserListUIManager.m */; };
+		F4E998F311AA11C0001BFB84 /* UserListUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E998F111AA11C0001BFB84 /* UserListUIManager.m */; };
+		F4E999CF11AA2482001BFB84 /* domiTopologyService.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E999CE11AA2482001BFB84 /* domiTopologyService.m */; };
+		F4E999D011AA2482001BFB84 /* domiTopologyService.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E999CE11AA2482001BFB84 /* domiTopologyService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* domiSimulationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiSimulationAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiSimulationAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* domiSimulation-IPAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "domiSimulation-IPAD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28042007108E984D000629CD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28042008108E984D000629CD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* domiSimulation_IPAD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiSimulation_IPAD_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* domiSimulation_IPAD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "domiSimulation_IPAD-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F41F748F11A9A7A50082D3AC /* SimulationViewControllerIPAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationViewControllerIPAD.h; sourceTree = "<group>"; };
+		F41F749011A9A7A50082D3AC /* SimulationViewControllerIPAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationViewControllerIPAD.m; sourceTree = "<group>"; };
+		F41F749111A9A7A50082D3AC /* SplashScreenViewControllerIPAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewControllerIPAD.h; sourceTree = "<group>"; };
+		F41F749211A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewControllerIPAD.m; sourceTree = "<group>"; };
+		F41F749311A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRepoSimulationViewControllerIPAD.h; sourceTree = "<group>"; };
+		F41F749411A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRepoSimulationViewControllerIPAD.m; sourceTree = "<group>"; };
+		F41F749A11A9A7EF0082D3AC /* domiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiObject.h; sourceTree = "<group>"; };
+		F41F749B11A9A7EF0082D3AC /* domiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiObject.m; sourceTree = "<group>"; };
+		F41F749D11A9A7EF0082D3AC /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		F41F749E11A9A7EF0082D3AC /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		F41F749F11A9A7EF0082D3AC /* domiUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiUser.h; sourceTree = "<group>"; };
+		F41F74A011A9A7EF0082D3AC /* domiUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiUser.m; sourceTree = "<group>"; };
+		F41F74A111A9A7EF0082D3AC /* domiAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiAccount.h; sourceTree = "<group>"; };
+		F41F74A211A9A7EF0082D3AC /* domiAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiAccount.m; sourceTree = "<group>"; };
+		F41F74A311A9A7EF0082D3AC /* domiApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiApplication.h; sourceTree = "<group>"; };
+		F41F74A411A9A7EF0082D3AC /* domiApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiApplication.m; sourceTree = "<group>"; };
+		F41F74A611A9A7EF0082D3AC /* domiPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiPerson.h; sourceTree = "<group>"; };
+		F41F74A711A9A7EF0082D3AC /* domiPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiPerson.m; sourceTree = "<group>"; };
+		F41F74A811A9A7EF0082D3AC /* domiGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiGroup.h; sourceTree = "<group>"; };
+		F41F74A911A9A7EF0082D3AC /* domiGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiGroup.m; sourceTree = "<group>"; };
+		F41F74AA11A9A7EF0082D3AC /* domiDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiDevice.h; sourceTree = "<group>"; };
+		F41F74AB11A9A7EF0082D3AC /* domiDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiDevice.m; sourceTree = "<group>"; };
+		F41F74AC11A9A7EF0082D3AC /* domiSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiSensor.h; sourceTree = "<group>"; };
+		F41F74AD11A9A7EF0082D3AC /* domiSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiSensor.m; sourceTree = "<group>"; };
+		F41F74AE11A9A7EF0082D3AC /* domiTopology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiTopology.h; sourceTree = "<group>"; };
+		F41F74AF11A9A7EF0082D3AC /* domiTopology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiTopology.m; sourceTree = "<group>"; };
+		F41F74B011A9A7EF0082D3AC /* domiTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiTransport.h; sourceTree = "<group>"; };
+		F41F74B111A9A7EF0082D3AC /* domiTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiTransport.m; sourceTree = "<group>"; };
+		F41F74B311A9A7EF0082D3AC /* domiInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiInstruction.h; sourceTree = "<group>"; };
+		F41F74B411A9A7EF0082D3AC /* domiInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiInstruction.m; sourceTree = "<group>"; };
+		F41F74C311A9A8000082D3AC /* DomiRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomiRepo.h; sourceTree = "<group>"; };
+		F41F74C411A9A8000082D3AC /* DomiRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomiRepo.m; sourceTree = "<group>"; };
+		F41F74C711A9A8000082D3AC /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		F41F74C811A9A8000082D3AC /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		F41F74C911A9A8000082D3AC /* RoomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDelegate.h; sourceTree = "<group>"; };
+		F41F74CA11A9A8000082D3AC /* RemoteRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteRoom.h; sourceTree = "<group>"; };
+		F41F74CB11A9A8000082D3AC /* RemoteRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteRoom.m; sourceTree = "<group>"; };
+		F41F74CC11A9A8000082D3AC /* LocalRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalRoom.h; sourceTree = "<group>"; };
+		F41F74CD11A9A8000082D3AC /* LocalRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalRoom.m; sourceTree = "<group>"; };
+		F41F74CE11A9A8000082D3AC /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		F41F74CF11A9A8000082D3AC /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		F41F74D011A9A8000082D3AC /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
+		F41F74D111A9A8000082D3AC /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		F41F74D211A9A8000082D3AC /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		F41F74D311A9A8000082D3AC /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		F41F74D411A9A8000082D3AC /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
+		F41F74D511A9A8000082D3AC /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
+		F41F74D611A9A8000082D3AC /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		F41F74D911A9A8000082D3AC /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F41F74DA11A9A8000082D3AC /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F41F74DB11A9A8000082D3AC /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F41F74DC11A9A8000082D3AC /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F41F74DD11A9A8000082D3AC /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F41F74DE11A9A8000082D3AC /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		F41F74DF11A9A8000082D3AC /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		F41F74E011A9A8000082D3AC /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F41F74E111A9A8000082D3AC /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F41F74E211A9A8000082D3AC /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F41F74E311A9A8000082D3AC /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F41F74E411A9A8000082D3AC /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F41F74E511A9A8000082D3AC /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F41F74E611A9A8000082D3AC /* JSON-README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JSON-README"; sourceTree = "<group>"; };
+		F41F74E711A9A8000082D3AC /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileReader.h; sourceTree = "<group>"; };
+		F41F74E811A9A8000082D3AC /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileReader.m; sourceTree = "<group>"; };
+		F41F74E911A9A8000082D3AC /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		F41F74EA11A9A8000082D3AC /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		F41F74FC11A9A8420082D3AC /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		F41F74FD11A9A8420082D3AC /* SplashScreenViewControllerIPAD.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewControllerIPAD.xib; sourceTree = "<group>"; };
+		F41F74FE11A9A8420082D3AC /* UserRepoSimulationViewControllerIPAD.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserRepoSimulationViewControllerIPAD.xib; sourceTree = "<group>"; };
+		F41F750411A9A8630082D3AC /* MainWindowIPHONE.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowIPHONE.xib; sourceTree = "<group>"; };
+		F41F750911A9A8810082D3AC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F41F753A11A9AD660082D3AC /* domiSimulation-IPHONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "domiSimulation-IPHONE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41F753C11A9AD660082D3AC /* domiSimulation-IPHONE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "domiSimulation-IPHONE-Info.plist"; sourceTree = "<group>"; };
+		F41F756711A9B1DB0082D3AC /* iPhoneRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iPhoneRootViewController.xib; path = Classes/iPhoneRootViewController.xib; sourceTree = "<group>"; };
+		F435121011A9C53D008747D8 /* SimulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationViewController.h; sourceTree = "<group>"; };
+		F435121111A9C53D008747D8 /* SimulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationViewController.m; sourceTree = "<group>"; };
+		F435121511A9C58C008747D8 /* SimulationViewControllerIPHONE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationViewControllerIPHONE.h; sourceTree = "<group>"; };
+		F435121611A9C58C008747D8 /* SimulationViewControllerIPHONE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationViewControllerIPHONE.m; sourceTree = "<group>"; };
+		F435126211A9CC76008747D8 /* SplashScreenViewControllerIPHONE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewControllerIPHONE.h; sourceTree = "<group>"; };
+		F435126311A9CC76008747D8 /* SplashScreenViewControllerIPHONE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewControllerIPHONE.m; sourceTree = "<group>"; };
+		F435126411A9CC76008747D8 /* SplashScreenViewControllerIPHONE.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SplashScreenViewControllerIPHONE.xib; path = Classes/SplashScreenViewControllerIPHONE.xib; sourceTree = "<group>"; };
+		F435136D11A9D918008747D8 /* TopologySimulationViewControllerIPAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopologySimulationViewControllerIPAD.h; sourceTree = "<group>"; };
+		F435136E11A9D918008747D8 /* TopologySimulationViewControllerIPAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopologySimulationViewControllerIPAD.m; sourceTree = "<group>"; };
+		F435136F11A9D918008747D8 /* TopologySimulationViewControllerIPAD.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TopologySimulationViewControllerIPAD.xib; path = Classes/TopologySimulationViewControllerIPAD.xib; sourceTree = "<group>"; };
+		F435137211A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopologySimulationViewControllerIPHONE.h; sourceTree = "<group>"; };
+		F435137311A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopologySimulationViewControllerIPHONE.m; sourceTree = "<group>"; };
+		F435137411A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TopologySimulationViewControllerIPHONE.xib; path = Classes/TopologySimulationViewControllerIPHONE.xib; sourceTree = "<group>"; };
+		F43513A611A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DietAppSimulationViewControllerIPAD.h; sourceTree = "<group>"; };
+		F43513A711A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DietAppSimulationViewControllerIPAD.m; sourceTree = "<group>"; };
+		F43513A811A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DietAppSimulationViewControllerIPAD.xib; path = Classes/DietAppSimulationViewControllerIPAD.xib; sourceTree = "<group>"; };
+		F43513B811A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DietAppSimulationViewControllerIPHONE.h; sourceTree = "<group>"; };
+		F43513B911A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DietAppSimulationViewControllerIPHONE.m; sourceTree = "<group>"; };
+		F43513BA11A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DietAppSimulationViewControllerIPHONE.xib; path = Classes/DietAppSimulationViewControllerIPHONE.xib; sourceTree = "<group>"; };
+		F43513D411A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRepoSimulationViewControllerIPHONE.h; sourceTree = "<group>"; };
+		F43513D511A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRepoSimulationViewControllerIPHONE.m; sourceTree = "<group>"; };
+		F43513D611A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UserRepoSimulationViewControllerIPHONE.xib; path = Classes/UserRepoSimulationViewControllerIPHONE.xib; sourceTree = "<group>"; };
+		F435140A11A9E331008747D8 /* DeviceListUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListUIManager.h; sourceTree = "<group>"; };
+		F435140B11A9E331008747D8 /* DeviceListUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListUIManager.m; sourceTree = "<group>"; };
+		F435149211A9EEF1008747D8 /* TableViewSelectListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSelectListManager.h; sourceTree = "<group>"; };
+		F435149311A9EEF1008747D8 /* TableViewSelectListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewSelectListManager.m; sourceTree = "<group>"; };
+		F43514CF11A9F8D7008747D8 /* ActionListUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionListUIManager.h; sourceTree = "<group>"; };
+		F43514D011A9F8D7008747D8 /* ActionListUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionListUIManager.m; sourceTree = "<group>"; };
+		F4E998F011AA11C0001BFB84 /* UserListUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListUIManager.h; sourceTree = "<group>"; };
+		F4E998F111AA11C0001BFB84 /* UserListUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListUIManager.m; sourceTree = "<group>"; };
+		F4E999CD11AA2482001BFB84 /* domiTopologyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domiTopologyService.h; sourceTree = "<group>"; };
+		F4E999CE11AA2482001BFB84 /* domiTopologyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domiTopologyService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41F753811A9AD660082D3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F433676111A9B2B3002FF527 /* Foundation.framework in Frameworks */,
+				F433676211A9B2B3002FF527 /* UIKit.framework in Frameworks */,
+				F433676311A9B2B3002FF527 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F41F748811A9A6D20082D3AC /* HI */,
+				F41F749911A9A7EF0082D3AC /* Model */,
+				F41F74C111A9A8000082D3AC /* Service */,
+				F41F74D711A9A8000082D3AC /* Util */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* domiSimulation-IPAD.app */,
+				F41F753A11A9AD660082D3AC /* domiSimulation-IPHONE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				F41F750211A9A8630082D3AC /* Resources-iPhone */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F41F750911A9A8810082D3AC /* README */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* domiSimulation_IPAD_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74FC11A9A8420082D3AC /* MainWindow.xib */,
+				F41F74FD11A9A8420082D3AC /* SplashScreenViewControllerIPAD.xib */,
+				F41F74FE11A9A8420082D3AC /* UserRepoSimulationViewControllerIPAD.xib */,
+				F435136F11A9D918008747D8 /* TopologySimulationViewControllerIPAD.xib */,
+				F43513A811A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.xib */,
+				8D1107310486CEB800E47090 /* domiSimulation_IPAD-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41F748811A9A6D20082D3AC /* HI */ = {
+			isa = PBXGroup;
+			children = (
+				F43514C911A9F83A008747D8 /* Util */,
+				F41F748B11A9A6EA0082D3AC /* App */,
+				F435140911A9E2D0008747D8 /* Topology */,
+				F41F748E11A9A7A50082D3AC /* iPadUI */,
+				F41F749811A9A7B40082D3AC /* iPhoneUI */,
+			);
+			name = HI;
+			sourceTree = "<group>";
+		};
+		F41F748B11A9A6EA0082D3AC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28042007108E984D000629CD /* RootViewController.h */,
+				28042008108E984D000629CD /* RootViewController.m */,
+				F435121011A9C53D008747D8 /* SimulationViewController.h */,
+				F435121111A9C53D008747D8 /* SimulationViewController.m */,
+				1D3623240D0F684500981E51 /* domiSimulationAppDelegate.h */,
+				1D3623250D0F684500981E51 /* domiSimulationAppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		F41F748E11A9A7A50082D3AC /* iPadUI */ = {
+			isa = PBXGroup;
+			children = (
+				F41F748F11A9A7A50082D3AC /* SimulationViewControllerIPAD.h */,
+				F41F749011A9A7A50082D3AC /* SimulationViewControllerIPAD.m */,
+				F41F749111A9A7A50082D3AC /* SplashScreenViewControllerIPAD.h */,
+				F41F749211A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m */,
+				F41F749311A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.h */,
+				F41F749411A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m */,
+				F435136D11A9D918008747D8 /* TopologySimulationViewControllerIPAD.h */,
+				F435136E11A9D918008747D8 /* TopologySimulationViewControllerIPAD.m */,
+				F43513A611A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.h */,
+				F43513A711A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.m */,
+			);
+			name = iPadUI;
+			sourceTree = "<group>";
+		};
+		F41F749811A9A7B40082D3AC /* iPhoneUI */ = {
+			isa = PBXGroup;
+			children = (
+				F435121511A9C58C008747D8 /* SimulationViewControllerIPHONE.h */,
+				F435121611A9C58C008747D8 /* SimulationViewControllerIPHONE.m */,
+				F435126211A9CC76008747D8 /* SplashScreenViewControllerIPHONE.h */,
+				F435126311A9CC76008747D8 /* SplashScreenViewControllerIPHONE.m */,
+				F435137211A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.h */,
+				F435137311A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.m */,
+				F43513D411A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.h */,
+				F43513D511A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.m */,
+				F43513B811A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.h */,
+				F43513B911A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.m */,
+			);
+			name = iPhoneUI;
+			sourceTree = "<group>";
+		};
+		F41F749911A9A7EF0082D3AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74B211A9A7EF0082D3AC /* InstructionSet */,
+				F41F74A511A9A7EF0082D3AC /* Domain */,
+				F41F749C11A9A7EF0082D3AC /* App */,
+				F41F749A11A9A7EF0082D3AC /* domiObject.h */,
+				F41F749B11A9A7EF0082D3AC /* domiObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F41F749C11A9A7EF0082D3AC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F41F749D11A9A7EF0082D3AC /* AppConfig.h */,
+				F41F749E11A9A7EF0082D3AC /* AppConfig.m */,
+				F41F749F11A9A7EF0082D3AC /* domiUser.h */,
+				F41F74A011A9A7EF0082D3AC /* domiUser.m */,
+				F41F74A111A9A7EF0082D3AC /* domiAccount.h */,
+				F41F74A211A9A7EF0082D3AC /* domiAccount.m */,
+				F41F74A311A9A7EF0082D3AC /* domiApplication.h */,
+				F41F74A411A9A7EF0082D3AC /* domiApplication.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		F41F74A511A9A7EF0082D3AC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74A611A9A7EF0082D3AC /* domiPerson.h */,
+				F41F74A711A9A7EF0082D3AC /* domiPerson.m */,
+				F41F74A811A9A7EF0082D3AC /* domiGroup.h */,
+				F41F74A911A9A7EF0082D3AC /* domiGroup.m */,
+				F41F74AA11A9A7EF0082D3AC /* domiDevice.h */,
+				F41F74AB11A9A7EF0082D3AC /* domiDevice.m */,
+				F41F74AC11A9A7EF0082D3AC /* domiSensor.h */,
+				F41F74AD11A9A7EF0082D3AC /* domiSensor.m */,
+				F41F74AE11A9A7EF0082D3AC /* domiTopology.h */,
+				F41F74AF11A9A7EF0082D3AC /* domiTopology.m */,
+				F41F74B011A9A7EF0082D3AC /* domiTransport.h */,
+				F41F74B111A9A7EF0082D3AC /* domiTransport.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		F41F74B211A9A7EF0082D3AC /* InstructionSet */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74B311A9A7EF0082D3AC /* domiInstruction.h */,
+				F41F74B411A9A7EF0082D3AC /* domiInstruction.m */,
+			);
+			name = InstructionSet;
+			sourceTree = "<group>";
+		};
+		F41F74C111A9A8000082D3AC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74C511A9A8000082D3AC /* Network */,
+				F41F74C211A9A8000082D3AC /* DataStore */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		F41F74C211A9A8000082D3AC /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74C311A9A8000082D3AC /* DomiRepo.h */,
+				F41F74C411A9A8000082D3AC /* DomiRepo.m */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		F41F74C511A9A8000082D3AC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74CE11A9A8000082D3AC /* Server.h */,
+				F41F74CF11A9A8000082D3AC /* Server.m */,
+				F41F74D011A9A8000082D3AC /* ServerDelegate.h */,
+				F41F74D111A9A8000082D3AC /* Connection.h */,
+				F41F74D211A9A8000082D3AC /* Connection.m */,
+				F41F74D311A9A8000082D3AC /* ConnectionDelegate.h */,
+				F41F74D411A9A8000082D3AC /* ServerBrowser.h */,
+				F41F74D511A9A8000082D3AC /* ServerBrowser.m */,
+				F41F74D611A9A8000082D3AC /* ServerBrowserDelegate.h */,
+				F41F74C611A9A8000082D3AC /* TopologySvc */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F41F74C611A9A8000082D3AC /* TopologySvc */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74C711A9A8000082D3AC /* Room.h */,
+				F41F74C811A9A8000082D3AC /* Room.m */,
+				F41F74C911A9A8000082D3AC /* RoomDelegate.h */,
+				F41F74CA11A9A8000082D3AC /* RemoteRoom.h */,
+				F41F74CB11A9A8000082D3AC /* RemoteRoom.m */,
+				F41F74CC11A9A8000082D3AC /* LocalRoom.h */,
+				F41F74CD11A9A8000082D3AC /* LocalRoom.m */,
+				F4E999CD11AA2482001BFB84 /* domiTopologyService.h */,
+				F4E999CE11AA2482001BFB84 /* domiTopologyService.m */,
+			);
+			name = TopologySvc;
+			sourceTree = "<group>";
+		};
+		F41F74D711A9A8000082D3AC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74D811A9A8000082D3AC /* JSON */,
+				F41F74E711A9A8000082D3AC /* FileReader.h */,
+				F41F74E811A9A8000082D3AC /* FileReader.m */,
+				F41F74E911A9A8000082D3AC /* FileUtil.h */,
+				F41F74EA11A9A8000082D3AC /* FileUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		F41F74D811A9A8000082D3AC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F41F74D911A9A8000082D3AC /* JSON.h */,
+				F41F74DA11A9A8000082D3AC /* NSObject+SBJSON.h */,
+				F41F74DB11A9A8000082D3AC /* NSObject+SBJSON.m */,
+				F41F74DC11A9A8000082D3AC /* NSString+SBJSON.h */,
+				F41F74DD11A9A8000082D3AC /* NSString+SBJSON.m */,
+				F41F74DE11A9A8000082D3AC /* SBJSON.h */,
+				F41F74DF11A9A8000082D3AC /* SBJSON.m */,
+				F41F74E011A9A8000082D3AC /* SBJsonBase.h */,
+				F41F74E111A9A8000082D3AC /* SBJsonBase.m */,
+				F41F74E211A9A8000082D3AC /* SBJsonParser.h */,
+				F41F74E311A9A8000082D3AC /* SBJsonParser.m */,
+				F41F74E411A9A8000082D3AC /* SBJsonWriter.h */,
+				F41F74E511A9A8000082D3AC /* SBJsonWriter.m */,
+				F41F74E611A9A8000082D3AC /* JSON-README */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		F41F750211A9A8630082D3AC /* Resources-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F41F756711A9B1DB0082D3AC /* iPhoneRootViewController.xib */,
+				F41F750411A9A8630082D3AC /* MainWindowIPHONE.xib */,
+				F435126411A9CC76008747D8 /* SplashScreenViewControllerIPHONE.xib */,
+				F43513D611A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.xib */,
+				F435137411A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.xib */,
+				F43513BA11A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.xib */,
+				F41F753C11A9AD660082D3AC /* domiSimulation-IPHONE-Info.plist */,
+			);
+			name = "Resources-iPhone";
+			sourceTree = "<group>";
+		};
+		F435140911A9E2D0008747D8 /* Topology */ = {
+			isa = PBXGroup;
+			children = (
+				F435140A11A9E331008747D8 /* DeviceListUIManager.h */,
+				F435140B11A9E331008747D8 /* DeviceListUIManager.m */,
+				F43514CF11A9F8D7008747D8 /* ActionListUIManager.h */,
+				F43514D011A9F8D7008747D8 /* ActionListUIManager.m */,
+				F4E998F011AA11C0001BFB84 /* UserListUIManager.h */,
+				F4E998F111AA11C0001BFB84 /* UserListUIManager.m */,
+			);
+			name = Topology;
+			sourceTree = "<group>";
+		};
+		F43514C911A9F83A008747D8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F435149211A9EEF1008747D8 /* TableViewSelectListManager.h */,
+				F435149311A9EEF1008747D8 /* TableViewSelectListManager.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* domiSimulation-IPAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "domiSimulation-IPAD" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "domiSimulation-IPAD";
+			productName = "domiSimulation-IPAD";
+			productReference = 1D6058910D05DD3D006BFB54 /* domiSimulation-IPAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F41F753911A9AD660082D3AC /* domiSimulation-IPHONE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41F753F11A9AD670082D3AC /* Build configuration list for PBXNativeTarget "domiSimulation-IPHONE" */;
+			buildPhases = (
+				F41F753611A9AD660082D3AC /* Resources */,
+				F41F753711A9AD660082D3AC /* Sources */,
+				F41F753811A9AD660082D3AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "domiSimulation-IPHONE";
+			productName = "domiSimulation-IPHONE";
+			productReference = F41F753A11A9AD660082D3AC /* domiSimulation-IPHONE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "domiSimulation-IPAD" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* domiSimulation-IPAD */,
+				F41F753911A9AD660082D3AC /* domiSimulation-IPHONE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41F74F811A9A8000082D3AC /* JSON-README in Resources */,
+				F41F74FF11A9A8420082D3AC /* MainWindow.xib in Resources */,
+				F41F750011A9A8420082D3AC /* SplashScreenViewControllerIPAD.xib in Resources */,
+				F41F750111A9A8420082D3AC /* UserRepoSimulationViewControllerIPAD.xib in Resources */,
+				F41F750A11A9A8810082D3AC /* README in Resources */,
+				F435137111A9D918008747D8 /* TopologySimulationViewControllerIPAD.xib in Resources */,
+				F43513AA11A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41F753611A9AD660082D3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43366A511A9B298002FF527 /* MainWindowIPHONE.xib in Resources */,
+				F43366A611A9B298002FF527 /* iPhoneRootViewController.xib in Resources */,
+				F435127611A9CE27008747D8 /* SplashScreenViewControllerIPHONE.xib in Resources */,
+				F435137611A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.xib in Resources */,
+				F43513BC11A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.xib in Resources */,
+				F43513D811A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* domiSimulationAppDelegate.m in Sources */,
+				2804200B108E984D000629CD /* RootViewController.m in Sources */,
+				F41F749711A9A7A50082D3AC /* UserRepoSimulationViewControllerIPAD.m in Sources */,
+				F41F749511A9A7A50082D3AC /* SimulationViewControllerIPAD.m in Sources */,
+				F41F749611A9A7A50082D3AC /* SplashScreenViewControllerIPAD.m in Sources */,
+				F41F74B511A9A7EF0082D3AC /* domiObject.m in Sources */,
+				F41F74B611A9A7EF0082D3AC /* AppConfig.m in Sources */,
+				F41F74B711A9A7EF0082D3AC /* domiUser.m in Sources */,
+				F41F74B811A9A7EF0082D3AC /* domiAccount.m in Sources */,
+				F41F74B911A9A7EF0082D3AC /* domiApplication.m in Sources */,
+				F41F74BA11A9A7EF0082D3AC /* domiPerson.m in Sources */,
+				F41F74BB11A9A7EF0082D3AC /* domiGroup.m in Sources */,
+				F41F74BC11A9A7EF0082D3AC /* domiDevice.m in Sources */,
+				F41F74BD11A9A7EF0082D3AC /* domiSensor.m in Sources */,
+				F41F74BE11A9A7EF0082D3AC /* domiTopology.m in Sources */,
+				F41F74BF11A9A7EF0082D3AC /* domiTransport.m in Sources */,
+				F41F74C011A9A7EF0082D3AC /* domiInstruction.m in Sources */,
+				F41F74EB11A9A8000082D3AC /* DomiRepo.m in Sources */,
+				F41F74EC11A9A8000082D3AC /* Room.m in Sources */,
+				F41F74ED11A9A8000082D3AC /* RemoteRoom.m in Sources */,
+				F41F74EE11A9A8000082D3AC /* LocalRoom.m in Sources */,
+				F41F74EF11A9A8000082D3AC /* Server.m in Sources */,
+				F41F74F011A9A8000082D3AC /* Connection.m in Sources */,
+				F41F74F111A9A8000082D3AC /* ServerBrowser.m in Sources */,
+				F41F74F211A9A8000082D3AC /* NSObject+SBJSON.m in Sources */,
+				F41F74F311A9A8000082D3AC /* NSString+SBJSON.m in Sources */,
+				F41F74F411A9A8000082D3AC /* SBJSON.m in Sources */,
+				F41F74F511A9A8000082D3AC /* SBJsonBase.m in Sources */,
+				F41F74F611A9A8000082D3AC /* SBJsonParser.m in Sources */,
+				F41F74F711A9A8000082D3AC /* SBJsonWriter.m in Sources */,
+				F41F74F911A9A8000082D3AC /* FileReader.m in Sources */,
+				F41F74FA11A9A8000082D3AC /* FileUtil.m in Sources */,
+				F435121311A9C53D008747D8 /* SimulationViewController.m in Sources */,
+				F435137011A9D918008747D8 /* TopologySimulationViewControllerIPAD.m in Sources */,
+				F43513A911A9DC05008747D8 /* DietAppSimulationViewControllerIPAD.m in Sources */,
+				F435140C11A9E331008747D8 /* DeviceListUIManager.m in Sources */,
+				F435149411A9EEF1008747D8 /* TableViewSelectListManager.m in Sources */,
+				F43514D111A9F8D7008747D8 /* ActionListUIManager.m in Sources */,
+				F4E998F311AA11C0001BFB84 /* UserListUIManager.m in Sources */,
+				F4E999D011AA2482001BFB84 /* domiTopologyService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41F753711A9AD660082D3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F433676411A9B2C3002FF527 /* main.m in Sources */,
+				F43367FD11A9B6E3002FF527 /* RootViewController.m in Sources */,
+				F433676511A9B2C3002FF527 /* domiSimulationAppDelegate.m in Sources */,
+				F435131911A9D4FD008747D8 /* SimulationViewController.m in Sources */,
+				F435127811A9CE4B008747D8 /* SimulationViewControllerIPHONE.m in Sources */,
+				F435127A11A9CE4B008747D8 /* SplashScreenViewControllerIPHONE.m in Sources */,
+				F433676A11A9B2C3002FF527 /* domiObject.m in Sources */,
+				F433676B11A9B2C3002FF527 /* AppConfig.m in Sources */,
+				F433676C11A9B2C3002FF527 /* domiUser.m in Sources */,
+				F433676D11A9B2C3002FF527 /* domiAccount.m in Sources */,
+				F433676E11A9B2C3002FF527 /* domiApplication.m in Sources */,
+				F433676F11A9B2C3002FF527 /* domiPerson.m in Sources */,
+				F433677011A9B2C3002FF527 /* domiGroup.m in Sources */,
+				F433677111A9B2C3002FF527 /* domiDevice.m in Sources */,
+				F433677211A9B2C3002FF527 /* domiSensor.m in Sources */,
+				F433677311A9B2C3002FF527 /* domiTopology.m in Sources */,
+				F433677411A9B2C3002FF527 /* domiTransport.m in Sources */,
+				F433677511A9B2C3002FF527 /* domiInstruction.m in Sources */,
+				F433677611A9B2C3002FF527 /* DomiRepo.m in Sources */,
+				F433677711A9B2C3002FF527 /* Room.m in Sources */,
+				F433677811A9B2C3002FF527 /* RemoteRoom.m in Sources */,
+				F433677911A9B2C3002FF527 /* LocalRoom.m in Sources */,
+				F433677A11A9B2C3002FF527 /* Server.m in Sources */,
+				F433677B11A9B2C3002FF527 /* Connection.m in Sources */,
+				F433677C11A9B2C3002FF527 /* ServerBrowser.m in Sources */,
+				F433677D11A9B2C3002FF527 /* NSObject+SBJSON.m in Sources */,
+				F433677E11A9B2C3002FF527 /* NSString+SBJSON.m in Sources */,
+				F433677F11A9B2C3002FF527 /* SBJSON.m in Sources */,
+				F433678011A9B2C3002FF527 /* SBJsonBase.m in Sources */,
+				F433678111A9B2C3002FF527 /* SBJsonParser.m in Sources */,
+				F433678211A9B2C3002FF527 /* SBJsonWriter.m in Sources */,
+				F433678311A9B2C3002FF527 /* FileReader.m in Sources */,
+				F433678411A9B2C3002FF527 /* FileUtil.m in Sources */,
+				F435137511A9D98B008747D8 /* TopologySimulationViewControllerIPHONE.m in Sources */,
+				F43513BB11A9DCC3008747D8 /* DietAppSimulationViewControllerIPHONE.m in Sources */,
+				F43513D711A9DE8B008747D8 /* UserRepoSimulationViewControllerIPHONE.m in Sources */,
+				F435140D11A9E331008747D8 /* DeviceListUIManager.m in Sources */,
+				F435149511A9EEF1008747D8 /* TableViewSelectListManager.m in Sources */,
+				F43514D211A9F8D7008747D8 /* ActionListUIManager.m in Sources */,
+				F4E998F211AA11C0001BFB84 /* UserListUIManager.m in Sources */,
+				F4E999CF11AA2482001BFB84 /* domiTopologyService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = domiSimulation_IPAD_Prefix.pch;
+				INFOPLIST_FILE = "domiSimulation_IPAD-Info.plist";
+				OTHER_CFLAGS = "-DIPAD=1";
+				PRODUCT_NAME = "domiSimulation-IPAD";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = domiSimulation_IPAD_Prefix.pch;
+				INFOPLIST_FILE = "domiSimulation_IPAD-Info.plist";
+				OTHER_CFLAGS = (
+					"-DIPAD=1",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				PRODUCT_NAME = "domiSimulation-IPAD";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F41F753D11A9AD670082D3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "domiSimulation-IPHONE-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = "-DIPHONE=1";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "domiSimulation-IPHONE";
+				SDKROOT = iphoneos3.1.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F41F753E11A9AD670082D3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "domiSimulation-IPHONE-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = (
+					"-DIPHONE=1",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "domiSimulation-IPHONE";
+				SDKROOT = iphoneos3.1.3;
+				TARGETED_DEVICE_FAMILY = 1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "domiSimulation-IPAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "domiSimulation-IPAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41F753F11A9AD670082D3AC /* Build configuration list for PBXNativeTarget "domiSimulation-IPHONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41F753D11A9AD670082D3AC /* Debug */,
+				F41F753E11A9AD670082D3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
